@@ -1,42 +1,57 @@
-import java.util.Arrays;
+import java.util.*;
 
 class Solution {
-    int answer = Integer.MAX_VALUE;
-    boolean[] visited;
-    int n;
+    
+    static boolean[] visited;
+    static int answer;
+    
+    // s1에서 s2로 가능한지.
+    public boolean canChange(String s1, String s2) {
+        int dif_cnt =0;
 
-    public int solution(String begin, String target, String[] words) {
-        if (!Arrays.asList(words).contains(target)) return 0;
-
-        n = words.length;
-        visited = new boolean[n];
-
-        dfs(begin, target, words, 0);
-
-        return answer == Integer.MAX_VALUE ? 0 : answer;
+        for(int i = 0; i < s1.length(); i++){
+          if(s1.charAt(i) != s2.charAt(i)){
+            dif_cnt++;
+          }
+        }
+        // 다른 문자가 1개일때
+        if(dif_cnt == 1){
+          return true;
+        }
+        // 다른문자가 한개가 아닐때
+        return false;
     }
-
-    public void dfs(String current, String target, String[] words, int depth) {
-        if (current.equals(target)) {
-            answer = Math.min(answer, depth);
+             
+    public void dfs(String begin, String target, String[] words, int cnt) {
+        if(begin.equals(target)) {
+            answer = cnt;
             return;
         }
+        
+        for (int i = 0; i < words.length; i++) {
+            if (visited[i]) {
+                continue;
+            }
 
-        for (int i = 0; i < n; i++) {
-            if (!visited[i] && canConvert(current, words[i])) {
+            if(canChange(begin, words[i])) {
                 visited[i] = true;
-                dfs(words[i], target, words, depth + 1);
-                visited[i] = false; // 백트래킹
+                dfs(words[i], target, words, cnt+1);
+                visited[i] = false;
             }
         }
     }
+      
+    public int solution(String begin, String target, String[] words) {
+        visited = new boolean[words.length];
+        
+        dfs(begin, target, words, 0);
+        
+        List<String> wordList = Arrays.asList(words);  // 배열 → 리스트 변환
 
-    public boolean canConvert(String a, String b) {
-        int diff = 0;
-        for (int i = 0; i < a.length(); i++) {
-            if (a.charAt(i) != b.charAt(i)) diff++;
-        }
-        return diff == 1;
+		    if (!wordList.contains(target)) {
+		        answer = 0;
+		    }
+        
+        return answer;
     }
 }
-
