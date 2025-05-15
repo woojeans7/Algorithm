@@ -50,7 +50,7 @@ class Solution {
 
         return -1;
     }
-    
+
     // 유효성 체크
     private static boolean isValid(int r, int c, int[][] board) {
         // 이동 가능한지 (0), 범위를 벗어나는지
@@ -62,36 +62,53 @@ class Solution {
                                int r1, int c1, int r2, int c2, int dist) {
         // 수평 방향 = 가로 상태
         if (r1 == r2) {
-            for (int d = -1; d <= 1; d += 2) {
-                int nr = r1 + d;
-                if (!isValid(nr, c1, board) || !isValid(nr, c2, board)) continue;
-
-                if (!visited[Math.min(nr, r1)][c1][1]) {
-                    visited[Math.min(nr, r1)][c1][1] = true;
-                    queue.offer(new int[]{Math.min(nr, r1), c1, Math.min(nr, r1) + 1, c1, dist + 1});
+            // 위쪽 회전
+            if (isValid(r1 - 1, c1, board) && isValid(r2 - 1, c2, board)) {
+                if (!visited[r1 - 1][c1][1]) {
+                    visited[r1 - 1][c1][1] = true;
+                    queue.offer(new int[]{r1 - 1, c1, r1, c1, dist + 1});
                 }
-                if (!visited[Math.min(nr, r2)][c2][1]) {
-                    visited[Math.min(nr, r2)][c2][1] = true;
-                    queue.offer(new int[]{Math.min(nr, r2), c2, Math.min(nr, r2) + 1, c2, dist + 1});
+                if (!visited[r2 - 1][c2][1]) {
+                    visited[r2 - 1][c2][1] = true;
+                    queue.offer(new int[]{r2 - 1, c2, r2, c2, dist + 1});
+                }
+            }
+            // 아래쪽 회전
+            if (isValid(r1 + 1, c1, board) && isValid(r2 + 1, c2, board)) {
+                if (!visited[r1][c1][1]) {
+                    visited[r1][c1][1] = true;
+                    queue.offer(new int[]{r1, c1, r1 + 1, c1, dist + 1});
+                }
+                if (!visited[r2][c2][1]) {
+                    visited[r2][c2][1] = true;
+                    queue.offer(new int[]{r2, c2, r2 + 1, c2, dist + 1});
                 }
             }
         }
         // 수직 방향 = 세로 상태
         else if (c1 == c2) {
-            for (int d = -1; d <= 1; d += 2) {
-                int nc = c1 + d;
-                if (!isValid(r1, nc, board) || !isValid(r2, nc, board)) continue;
-
-                if (!visited[r1][Math.min(nc, c1)][0]) {
-                    visited[r1][Math.min(nc, c1)][0] = true;
-                    queue.offer(new int[]{r1, Math.min(nc, c1), r1, Math.min(nc, c1) + 1, dist + 1});
+            // 왼쪽 회전
+            if (isValid(r1, c1 - 1, board) && isValid(r2, c2 - 1, board)) {
+                if (!visited[r1][c1 - 1][0]) {
+                    visited[r1][c1 - 1][0] = true;
+                    queue.offer(new int[]{r1, c1 - 1, r1, c1, dist + 1});
                 }
-                if (!visited[r2][Math.min(nc, c2)][0]) {
-                    visited[r2][Math.min(nc, c2)][0] = true;
-                    queue.offer(new int[]{r2, Math.min(nc, c2), r2, Math.min(nc, c2) + 1, dist + 1});
+                if (!visited[r2][c2 - 1][0]) {
+                    visited[r2][c2 - 1][0] = true;
+                    queue.offer(new int[]{r2, c2 - 1, r2, c2, dist + 1});
+                }
+            }
+            // 오른쪽 회전
+            if (isValid(r1, c1 + 1, board) && isValid(r2, c2 + 1, board)) {
+                if (!visited[r1][c1][0]) {
+                    visited[r1][c1][0] = true;
+                    queue.offer(new int[]{r1, c1, r1, c1 + 1, dist + 1});
+                }
+                if (!visited[r2][c2][0]) {
+                    visited[r2][c2][0] = true;
+                    queue.offer(new int[]{r2, c2, r2, c2 + 1, dist + 1});
                 }
             }
         }
     }
-        
 }
