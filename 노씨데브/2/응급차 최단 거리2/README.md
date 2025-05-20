@@ -1,6 +1,6 @@
 # 응급차 최단 거리2
 
-[문제 링크]("https://cote.nossi.dev/problem/32/description")
+[문제 링크](https://cote.nossi.dev/problem/32/description)
 
 ## 성능 요약
 메모리: 89.30 MB, 시간 : 100 ms
