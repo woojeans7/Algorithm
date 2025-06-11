@@ -1,6 +1,11 @@
 import java.util.*;
 import java.io.*;
 
+/*
+    BAEKJOON 2206번 벽 부수고 이동하기
+    https://www.acmicpc.net/problem/2206
+*/
+
 public class Main {
   public static void main(String[] args) throws IOException {
     // 입력 설정
