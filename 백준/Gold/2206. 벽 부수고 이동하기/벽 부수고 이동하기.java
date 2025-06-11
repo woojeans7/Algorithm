@@ -66,7 +66,7 @@ public class Main {
             queue.offer(new int[]{nr, nc, dist + 1, broken});
             visited[nr][nc][broken] = true;
           }
-          else if(map[nr][nc] == 1 && broken == 0 && !visited[nr][nc][broken]) {
+          else if(map[nr][nc] == 1 && broken == 0 && !visited[nr][nc][broken+1]) {
             queue.offer(new int[]{nr, nc, dist + 1, broken+1});
             visited[nr][nc][broken+1] = true;
           }
