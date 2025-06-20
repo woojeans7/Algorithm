@@ -1,16 +1,20 @@
 class Solution {
     public int climbStairs(int n) {
-        int[] memo = new int[n+1];
-        return dp(n, memo);
-    }
-    int dp(int n, int[] memo){
-        if(n == 1) return 1;
-        
-        if(n == 2) return 2;
+        int res = dp(n);
 
-        if(memo[n] == 0){
-            memo[n] = dp(n - 1, memo) + dp(n - 2, memo);
+        return res;
+
+    }
+    public int dp(int n){
+        Map<Integer, Integer> memo = new HashMap<>();
+
+        memo.put(1,1);
+        memo.put(2,2);
+
+        for(int i = 3; i <= n; i++){
+            memo.put(i, memo.get(i-1) + memo.get(i-2));
         }
-        return memo[n];
+
+        return memo.get(n);
     }
 }
