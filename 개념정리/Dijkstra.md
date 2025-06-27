@@ -186,6 +186,7 @@ public class dijkstraExample {
 ```
 
 **결과**
+
 ![](./asset/dijkstra_result.png)
 
 ### 시간 복잡도
