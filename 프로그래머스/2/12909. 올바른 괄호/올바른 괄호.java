@@ -1,22 +1,25 @@
+import java.util.*;
+
 class Solution {
-
     boolean solution(String s) {
-        int openCount = 0;
-        int closeCount = 0;
-
-        for (int i = 0; i < s.length(); i++) {
-            if (s.charAt(i) == '(') {
-                openCount++;
-            } else if (s.charAt(i) == ')') {
-                closeCount++;
+        // 스택 초기화
+        Deque<Character> stack = new ArrayDeque<>();
+        
+        for(char c : s.toCharArray()){
+            // 열린 괄호면 스택에 저장
+            if(c == '('){
+                stack.push(c);
             }
-            if (openCount < closeCount) {
-                return false;
+            // 닫힌 괄호일 때
+            else{
+                // 1. 시작부터 닫힌 괄호일 경우
+                if(stack.isEmpty()) return false;
+                
+                // 2. 열린 괄호가 있을 경우
+                char top = stack.pop();
             }
         }
-        if (openCount == closeCount) {
-            return true;
-        }
-        return false;
+        
+        return stack.isEmpty();
     }
 }
