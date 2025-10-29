@@ -16,7 +16,7 @@
 
 [BFS](./개념정리/BFS.md) |
 [DFS](./개념정리/DFS.md) |
-[암시적 그래프](./개념정리/ImplictGrapgh.md)
+[암시적 그래프](./개념정리/ImplicitGraph.md)
 
 [투포인터](./개념정리/TwoPointer.md) |
 [다이나믹 프로그래밍](./개념정리/Dynamic%20Programming.md) |
