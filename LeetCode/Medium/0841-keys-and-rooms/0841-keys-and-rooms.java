@@ -1,21 +1,23 @@
 class Solution {
     public boolean canVisitAllRooms(List<List<Integer>> rooms) {
         Set<Integer> visited = new HashSet<>();
-        dfs(rooms, visited, 0);
-        if(visited.size()==rooms.size())
-        {
+
+        dfs(rooms, 0, visited);
+
+        // 모든 방을 방문했을 때 true 반환
+        if(visited.size() == rooms.size()){
             return true;
         }
-        else {
-            return false;
-        }
-        
+        else return false;
     }
-    void dfs(List<List<Integer>> rooms, Set<Integer> visited, int curVertex) {
-        visited.add(curVertex);
-        for (int nextVertex : rooms.get(curVertex)) {
-            if (!visited.contains(nextVertex)) {
-                dfs(rooms, visited, nextVertex);
+    public void dfs(List<List<Integer>> rooms, int cur, Set<Integer> visited){
+        // 1. 현재 노드 방문 처리
+        visited.add(cur);
+
+        // 2. 다음 노드 예약
+        for(int i : rooms.get(cur)){
+            if(!visited.contains(i)){
+                dfs(rooms, i, visited);
             }
         }
     }
