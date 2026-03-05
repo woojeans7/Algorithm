@@ -17,10 +17,8 @@ class Solution {
         map.put("nine", "9");
         
         for(String eng : map.keySet()){
-            if(s.contains(eng)){
-                s = s.replace(eng, map.get(eng));
-                // System.out.println(s);
-            }
+            s = s.replace(eng, map.get(eng));
+            // System.out.println(s);
         }
         answer = Integer.parseInt(s);
         
