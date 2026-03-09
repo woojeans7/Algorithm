@@ -1,33 +1,32 @@
 class Solution {
     public int solution(String s) {
-        int minLength = s.length(); 
-
-        for (int i = 1; i <= s.length(); i++) {
-            String[] subStr = s.split("(?<=\\G.{" + i + "})");
-            StringBuilder compressed = new StringBuilder();
-            String prev = subStr[0];
-            int cnt = 1;
-
-            for (int j = 1; j < subStr.length; j++) {
-                if (subStr[j].equals(prev)) {
-                    cnt++;
-                } else {
-                    if (cnt > 1) compressed.append(cnt);
-                    compressed.append(prev);
-
-                    prev = subStr[j];
-                    cnt = 1;
-                }
-            }
-
-            if (cnt > 1) compressed.append(cnt);
-            compressed.append(prev);
-            
-            // System.out.println(compressed); 
-
-            minLength = Math.min(minLength, compressed.length());
+        int answer = s.length();
+        for(int i = 1; i < s.length() / 2 + 1; i++){
+            answer = Math.min(answer, compress(s, i));
         }
-
-        return minLength;
+        return answer;
+    }
+    public int compress(String s, int length){
+        int len = s.length();
+        StringBuilder sb = new StringBuilder();
+        
+        String prev = s.substring(0, length);
+        int count = 1;
+        
+        for(int i = length; i < len; i += length){
+            String unit = s.substring(i, Math.min(i + length, len));
+            if (unit.equals(prev)) {
+                count++;
+            } else {
+                if (count > 1) sb.append(count);
+                sb.append(prev);
+                prev = unit;
+                count = 1;
+            }
+        }
+        if (count > 1) sb.append(count);
+        sb.append(prev);
+        
+        return sb.toString().length();
     }
 }
