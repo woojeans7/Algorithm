@@ -1,21 +1,18 @@
 class Solution {
     public int coinChange(int[] coins, int amount) {
-        
-        // 1. 초기화
-        int[] dp = new int[amount + 1];
-        Arrays.fill(dp, amount+1);
-        dp[0] = 0; // base 조건
+        int max = amount + 1; // 불가능한 값으로 만들기 위해 최대 양에 1을 더해줌.
 
-        // 2. 점화식 
-        for(int i =1; i <= amount; i++){
+        int[] dp = new int[amount + 1];
+        Arrays.fill(dp, max);
+        dp[0] = 0; // 0원을 만들기 위한 동전 수는 0
+        
+        for(int i=0; i < dp.length; i++){
             for(int coin : coins){
                 if(coin <= i){
-                    dp[i] = Math.min(dp[i], dp[i-coin]+1);
+                    dp[i] = Math.min(dp[i], 1 + dp[i-coin]);
                 }
             }
         }
-
-        // 3. 결과 반환
-        return dp[amount] < amount+1 ? dp[amount] : -1;
+        return (dp[amount] != max) ? dp[amount] : -1;
     }
 }
