@@ -81,4 +81,16 @@
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [0392-is-subsequence](https://github.com/woojeans7/Algorithm/tree/main/LeetCode/Easy/0392-is-subsequence/) | Easy |
+## Depth-First Search
+| Problem Name | Difficulty |
+| ------- | ------- |
+| [0841-keys-and-rooms](https://github.com/woojeans7/Algorithm/tree/main/LeetCode/Medium/0841-keys-and-rooms/) | Medium |
+## Breadth-First Search
+| Problem Name | Difficulty |
+| ------- | ------- |
+| [0841-keys-and-rooms](https://github.com/woojeans7/Algorithm/tree/main/LeetCode/Medium/0841-keys-and-rooms/) | Medium |
+## Graph Theory
+| Problem Name | Difficulty |
+| ------- | ------- |
+| [0841-keys-and-rooms](https://github.com/woojeans7/Algorithm/tree/main/LeetCode/Medium/0841-keys-and-rooms/) | Medium |
 <!---LeetCode Topics End-->
