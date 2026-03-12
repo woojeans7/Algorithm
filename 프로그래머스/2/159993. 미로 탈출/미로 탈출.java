@@ -1,77 +1,79 @@
 import java.util.*;
 
 class Solution {
-    static int m;
-    static int n;
-    static int[][] times;
-    public static int solution(String[] maps) {
-        m = maps.length;
-        n = maps[0].length();
-        times = new int[m][n];
-        int[] start = null;
-        int[] end = null;
-        int[] lever = null;
-
-        char[][] grid = new char[m][n];
-        for (int i = 0; i < m; i++) {
-            for (int j = 0; j < n; j++) {
-                grid[i][j] = maps[i].charAt(j);
-                if (grid[i][j] == 'S') {
-                    start = new int[]{i, j};
+    public int solution(String[] maps) {
+        int n = maps.length;
+        int m = maps[0].length();
+        char[][] miro = new char[n][m];
+        
+        for(int i = 0; i < n; i++){
+            miro[i] = maps[i].toCharArray();
+        }
+        
+        int[] start = new int[2];
+        int[] lever = new int[2];
+        int[] end = new int[2];
+        
+        for(int i = 0; i< n; i++){
+            for(int j = 0; j < m; j++){
+                if(miro[i][j] == 'S'){
+                    start[0] = i;
+                    start[1] = j;
                 }
-                else if (grid[i][j] == 'E') {
-                    end = new int[]{i, j};
+                else if(miro[i][j] == 'L'){
+                    lever[0] = i;
+                    lever[1] = j;
                 }
-                else if (grid[i][j] == 'L') {
-                    lever = new int[]{i, j};
+                else if(miro[i][j] == 'E'){
+                    end[0] = i;
+                    end[1] = j;
                 }
             }
         }
-
-        bfs(start, lever, grid);
-        int toLever = times[lever[0]][lever[1]];
-        if (toLever == -1) return -1;
-
-        bfs(lever, end, grid);
-        int toEnd = times[end[0]][end[1]];
-        if (toEnd == -1) return -1;
-
+        
+        // System.out.println(Arrays.deepToString(miro));
+        
+        int toLever = bfs(miro, n, m, start, lever);
+        int toEnd = bfs(miro, n, m, lever, end);
+        if(toLever == -1 || toEnd == -1) return -1;
+        
         return toLever + toEnd;
     }
-
-    public static void bfs(int[] from, int[] to, char[][] grid) {
-        int[] dr = {-1, 1, 0, 0,};
-        int[] dc = {0, 0, -1, 1};
+    
+    public int bfs(char[][] miro, int n, int m, int[] start, int[] end){
+        Queue<int[]> queue = new ArrayDeque<>();
+        int[][] distance = new int[n][m];
+        for (int[] d : distance) {
+            Arrays.fill(d, -1);  // 각 행(int[])을 -1로 채움
+        }
         
-        for (int i = 0; i < m; i++) {
-            Arrays.fill(times[i], -1);
-        }   
+        queue.add(start);
+        distance[start[0]][start[1]] = 0;
         
-        Queue<int[]> queue = new LinkedList<>();
-        queue.offer(from);
-        times[from[0]][from[1]] = 0;
-
-        while (!queue.isEmpty()) {
+        int[] dr = {-1, 1, 0, 0};
+        int[] dc = {0,0,-1,1};
+        
+        while(!queue.isEmpty()){
             int[] cur = queue.poll();
-            int curRow = cur[0];
-            int curCol = cur[1];
-
-            if(curRow == to[0] && curCol == to[1]){return;}
-
-            for (int i = 0; i < 4; i++) {
-                int nextRow = curRow + dr[i];
-                int nextCol = curCol + dc[i];
-                if (isValid(nextRow, nextCol)) {
-                    if (times[nextRow][nextCol] == -1 && grid[nextRow][nextCol] != 'X') {
-                        queue.offer(new int[]{nextRow, nextCol});
-                        times[nextRow][nextCol] = times[curRow][curCol] + 1;
+            int row = cur[0];
+            int col = cur[1];
+            
+            if(row == end[0] && col == end[1]){
+                return distance[row][col];
+            }
+            
+            for(int i = 0; i < 4; i++){
+                int nr = row + dr[i];
+                int nc = col + dc[i];
+                
+                if(nr >= 0 && nr < n && nc >= 0 && nc < m){
+                    if(distance[nr][nc] == -1 && miro[nr][nc] != 'X'){
+                        distance[nr][nc] = distance[row][col] + 1;
+                        queue.add(new int[]{nr, nc});
                     }
                 }
             }
-
         }
-    }
-    public static boolean isValid(int r, int c) {
-        return 0 <= r && r < m && 0 <= c && c < n;
+        return -1;
     }
 }
