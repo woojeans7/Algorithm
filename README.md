@@ -97,15 +97,18 @@
 ## Depth-First Search
 | Problem Name | Difficulty |
 | ------- | ------- |
+| [0785-is-graph-bipartite](https://github.com/woojeans7/Algorithm/tree/main/LeetCode/Medium/0785-is-graph-bipartite/) | Medium |
 | [0841-keys-and-rooms](https://github.com/woojeans7/Algorithm/tree/main/LeetCode/Medium/0841-keys-and-rooms/) | Medium |
 ## Breadth-First Search
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [0322-coin-change](https://github.com/woojeans7/Algorithm/tree/main/LeetCode/Medium/0322-coin-change/) | Medium |
+| [0785-is-graph-bipartite](https://github.com/woojeans7/Algorithm/tree/main/LeetCode/Medium/0785-is-graph-bipartite/) | Medium |
 | [0841-keys-and-rooms](https://github.com/woojeans7/Algorithm/tree/main/LeetCode/Medium/0841-keys-and-rooms/) | Medium |
 ## Graph Theory
 | Problem Name | Difficulty |
 | ------- | ------- |
+| [0785-is-graph-bipartite](https://github.com/woojeans7/Algorithm/tree/main/LeetCode/Medium/0785-is-graph-bipartite/) | Medium |
 | [0841-keys-and-rooms](https://github.com/woojeans7/Algorithm/tree/main/LeetCode/Medium/0841-keys-and-rooms/) | Medium |
 ## Hash Table
 | Problem Name | Difficulty |
@@ -126,4 +129,8 @@
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [1004-max-consecutive-ones-iii](https://github.com/woojeans7/Algorithm/tree/main/LeetCode/Medium/1004-max-consecutive-ones-iii/) | Medium |
+## Union-Find
+| Problem Name | Difficulty |
+| ------- | ------- |
+| [0785-is-graph-bipartite](https://github.com/woojeans7/Algorithm/tree/main/LeetCode/Medium/0785-is-graph-bipartite/) | Medium |
 <!---LeetCode Topics End-->
