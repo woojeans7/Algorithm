@@ -1,59 +1,39 @@
 import java.util.*;
 
 class Solution {
-    class WhoReport {
-        List<String> rplist = new ArrayList<>();
-        int count;
-        
-        WhoReport(List<String> rplist, int count){
-            this.rplist = rplist;
-            this.count = count;
-        }
-    }
     public int[] solution(String[] id_list, String[] report, int k) {
-        // 해시맵으로 초기화
-        Map<String, WhoReport> map = new HashMap<>();
         
-        // report 분리
-        for(String s : report){
-            String[] rp = s.split(" ");
-            List<String> rpuser = new ArrayList<>();
-            // 해시맵에 user id저장
-            for (String id : id_list){
-                map.putIfAbsent(id, new WhoReport(new ArrayList<>(), 0));
-            }
-            // 해시맵에 user별 신고자, 신고 받은 횟수 저장
-            map.putIfAbsent(rp[0], new WhoReport(new ArrayList<>(), 0));
-            if(map.get(rp[0]).rplist.contains(rp[1])) continue;
-            map.get(rp[0]).rplist.add(rp[1]);
+        // 중복 신고 제거
+        Set<String> reportSet = new HashSet<>(Arrays.asList(report));
+        
+        // 신고 당한 사람 카운팅
+        Map<String, Integer> reportCount = new HashMap<>();
+        
+        // 누가 누구를 신고했는지 저장
+        Map<String, List<String>> reportTo = new HashMap<>();
+
+        // 몇 번 신고 당했는지 세기
+        for(String r : reportSet){
+            String[] parts = r.split(" ");
+            String reporter = parts[0];   // 신고자
+            String reported = parts[1];   // 피신고자
+            
+            reportCount.put(reported, reportCount.getOrDefault(reported, 0) + 1);
+            reportTo.computeIfAbsent(reporter, key -> new ArrayList<>()).add(reported);
+            
         }
-        // 신고 받은 횟수 카운트
-        for(String id : id_list){
-            for(WhoReport r : map.values()){
-                if(r.rplist.contains(id)){
-                     map.get(id).count += 1;
+    
+        // k번 이상인 사람 체크
+        int[] answer = new int[id_list.length];
+        for(int i = 0; i < id_list.length; i++){
+            List<String> reported = reportTo.getOrDefault(id_list[i], new ArrayList<>());
+            for(String target : reported){
+                if(reportCount.get(target) >= k){
+                    answer[i]++;
                 }
             }
         }
         
-        // 정지 유저 저장
-        List<String> ban = new ArrayList<>();
-        for(int i = 0; i < id_list.length; i++){
-            if(map.get(id_list[i]).count >= k){
-                ban.add(id_list[i]);
-            }
-        }
-        // 결과 저장
-        int[] result = new int[id_list.length];
-        for(int i = 0; i < id_list.length; i++){
-            int mail = 0;
-            for(String b : ban){
-                if(map.get(id_list[i]).rplist.contains(b))
-                    mail++;
-            }
-            result[i] = mail;
-        }
-        
-        return result;
+        return answer;
     }
 }
