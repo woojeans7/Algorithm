@@ -54,6 +54,7 @@
 | [0392-is-subsequence](https://github.com/woojeans7/Algorithm/tree/main/LeetCode/Easy/0392-is-subsequence/) | Easy |
 | [0394-decode-string](https://github.com/woojeans7/Algorithm/tree/main/LeetCode/Medium/0394-decode-string/) | Medium |
 | [0443-string-compression](https://github.com/woojeans7/Algorithm/tree/main/LeetCode/Medium/0443-string-compression/) | Medium |
+| [0649-dota2-senate](https://github.com/woojeans7/Algorithm/tree/main/LeetCode/Medium/0649-dota2-senate/) | Medium |
 | [1071-greatest-common-divisor-of-strings](https://github.com/woojeans7/Algorithm/tree/main/LeetCode/Easy/1071-greatest-common-divisor-of-strings/) | Easy |
 | [1456-maximum-number-of-vowels-in-a-substring-of-given-length](https://github.com/woojeans7/Algorithm/tree/main/LeetCode/Medium/1456-maximum-number-of-vowels-in-a-substring-of-given-length/) | Medium |
 | [1657-determine-if-two-strings-are-close](https://github.com/woojeans7/Algorithm/tree/main/LeetCode/Medium/1657-determine-if-two-strings-are-close/) | Medium |
@@ -90,6 +91,7 @@
 | [0011-container-with-most-water](https://github.com/woojeans7/Algorithm/tree/main/LeetCode/Medium/0011-container-with-most-water/) | Medium |
 | [0334-increasing-triplet-subsequence](https://github.com/woojeans7/Algorithm/tree/main/LeetCode/Medium/0334-increasing-triplet-subsequence/) | Medium |
 | [0605-can-place-flowers](https://github.com/woojeans7/Algorithm/tree/main/LeetCode/Easy/0605-can-place-flowers/) | Easy |
+| [0649-dota2-senate](https://github.com/woojeans7/Algorithm/tree/main/LeetCode/Medium/0649-dota2-senate/) | Medium |
 ## Prefix Sum
 | Problem Name | Difficulty |
 | ------- | ------- |
@@ -181,6 +183,7 @@
 ## Queue
 | Problem Name | Difficulty |
 | ------- | ------- |
+| [0649-dota2-senate](https://github.com/woojeans7/Algorithm/tree/main/LeetCode/Medium/0649-dota2-senate/) | Medium |
 | [0933-number-of-recent-calls](https://github.com/woojeans7/Algorithm/tree/main/LeetCode/Easy/0933-number-of-recent-calls/) | Easy |
 ## Data Stream
 | Problem Name | Difficulty |
