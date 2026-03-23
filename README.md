@@ -174,4 +174,16 @@
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [0394-decode-string](https://github.com/woojeans7/Algorithm/tree/main/LeetCode/Medium/0394-decode-string/) | Medium |
+## Design
+| Problem Name | Difficulty |
+| ------- | ------- |
+| [0933-number-of-recent-calls](https://github.com/woojeans7/Algorithm/tree/main/LeetCode/Easy/0933-number-of-recent-calls/) | Easy |
+## Queue
+| Problem Name | Difficulty |
+| ------- | ------- |
+| [0933-number-of-recent-calls](https://github.com/woojeans7/Algorithm/tree/main/LeetCode/Easy/0933-number-of-recent-calls/) | Easy |
+## Data Stream
+| Problem Name | Difficulty |
+| ------- | ------- |
+| [0933-number-of-recent-calls](https://github.com/woojeans7/Algorithm/tree/main/LeetCode/Easy/0933-number-of-recent-calls/) | Easy |
 <!---LeetCode Topics End-->
