@@ -193,5 +193,6 @@
 ## Linked List
 | Problem Name | Difficulty |
 | ------- | ------- |
+| [0328-odd-even-linked-list](https://github.com/woojeans7/Algorithm/tree/main/LeetCode/Medium/0328-odd-even-linked-list/) | Medium |
 | [2095-delete-the-middle-node-of-a-linked-list](https://github.com/woojeans7/Algorithm/tree/main/LeetCode/Medium/2095-delete-the-middle-node-of-a-linked-list/) | Medium |
 <!---LeetCode Topics End-->
