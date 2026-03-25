@@ -116,11 +116,13 @@
 ## Depth-First Search
 | Problem Name | Difficulty |
 | ------- | ------- |
+| [0104-maximum-depth-of-binary-tree](https://github.com/woojeans7/Algorithm/tree/main/LeetCode/Easy/0104-maximum-depth-of-binary-tree/) | Easy |
 | [0785-is-graph-bipartite](https://github.com/woojeans7/Algorithm/tree/main/LeetCode/Medium/0785-is-graph-bipartite/) | Medium |
 | [0841-keys-and-rooms](https://github.com/woojeans7/Algorithm/tree/main/LeetCode/Medium/0841-keys-and-rooms/) | Medium |
 ## Breadth-First Search
 | Problem Name | Difficulty |
 | ------- | ------- |
+| [0104-maximum-depth-of-binary-tree](https://github.com/woojeans7/Algorithm/tree/main/LeetCode/Easy/0104-maximum-depth-of-binary-tree/) | Easy |
 | [0322-coin-change](https://github.com/woojeans7/Algorithm/tree/main/LeetCode/Medium/0322-coin-change/) | Medium |
 | [0785-is-graph-bipartite](https://github.com/woojeans7/Algorithm/tree/main/LeetCode/Medium/0785-is-graph-bipartite/) | Medium |
 | [0841-keys-and-rooms](https://github.com/woojeans7/Algorithm/tree/main/LeetCode/Medium/0841-keys-and-rooms/) | Medium |
@@ -195,4 +197,12 @@
 | ------- | ------- |
 | [0328-odd-even-linked-list](https://github.com/woojeans7/Algorithm/tree/main/LeetCode/Medium/0328-odd-even-linked-list/) | Medium |
 | [2095-delete-the-middle-node-of-a-linked-list](https://github.com/woojeans7/Algorithm/tree/main/LeetCode/Medium/2095-delete-the-middle-node-of-a-linked-list/) | Medium |
+## Tree
+| Problem Name | Difficulty |
+| ------- | ------- |
+| [0104-maximum-depth-of-binary-tree](https://github.com/woojeans7/Algorithm/tree/main/LeetCode/Easy/0104-maximum-depth-of-binary-tree/) | Easy |
+## Binary Tree
+| Problem Name | Difficulty |
+| ------- | ------- |
+| [0104-maximum-depth-of-binary-tree](https://github.com/woojeans7/Algorithm/tree/main/LeetCode/Easy/0104-maximum-depth-of-binary-tree/) | Easy |
 <!---LeetCode Topics End-->
