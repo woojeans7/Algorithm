@@ -14,28 +14,28 @@
  * }
  */
 class Solution {
-    public List<Integer> arr1 = new ArrayList<>();
-    public List<Integer> arr2 = new ArrayList<>();
-      
     public boolean leafSimilar(TreeNode root1, TreeNode root2) {
-        dfs(root1,arr1);
-        dfs(root2,arr2);
+        List<Integer> list1 = new ArrayList<>();
+        List<Integer> list2 = new ArrayList<>();
 
-        return arr1.equals(arr2);
-        
+        dfs(root1, list1);
+        dfs(root2, list2);
+
+        System.out.println(list1);
+        System.out.println(list2);
+
+        return list1.equals(list2);
+
     }
-
-
-    public void dfs(TreeNode root,List<Integer> arr1){
+    public void dfs(TreeNode root, List<Integer> list){
         if(root == null) return;
-
+        
         if(root.left == null && root.right == null){
-            arr1.add(root.val);
+            list.add(root.val);
         }
 
-        dfs(root.left, arr1);
-
-        dfs(root.right, arr1);
-   
+        dfs(root.left, list);
+        dfs(root.right, list);
     }
+
 }
