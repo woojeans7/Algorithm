@@ -21,9 +21,6 @@ class Solution {
         dfs(root1, list1);
         dfs(root2, list2);
 
-        System.out.println(list1);
-        System.out.println(list2);
-
         return list1.equals(list2);
 
     }
