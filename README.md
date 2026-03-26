@@ -79,6 +79,7 @@
 | [0643-maximum-average-subarray-i](https://github.com/woojeans7/Algorithm/tree/main/LeetCode/Easy/0643-maximum-average-subarray-i/) | Easy |
 | [0724-find-pivot-index](https://github.com/woojeans7/Algorithm/tree/main/LeetCode/Easy/0724-find-pivot-index/) | Easy |
 | [0735-asteroid-collision](https://github.com/woojeans7/Algorithm/tree/main/LeetCode/Medium/0735-asteroid-collision/) | Medium |
+| [0739-daily-temperatures](https://github.com/woojeans7/Algorithm/tree/main/LeetCode/Medium/0739-daily-temperatures/) | Medium |
 | [1004-max-consecutive-ones-iii](https://github.com/woojeans7/Algorithm/tree/main/LeetCode/Medium/1004-max-consecutive-ones-iii/) | Medium |
 | [1207-unique-number-of-occurrences](https://github.com/woojeans7/Algorithm/tree/main/LeetCode/Easy/1207-unique-number-of-occurrences/) | Easy |
 | [1431-kids-with-the-greatest-number-of-candies](https://github.com/woojeans7/Algorithm/tree/main/LeetCode/Easy/1431-kids-with-the-greatest-number-of-candies/) | Easy |
@@ -107,6 +108,7 @@
 | [0020-valid-parentheses](https://github.com/woojeans7/Algorithm/tree/main/LeetCode/Easy/0020-valid-parentheses/) | Easy |
 | [0394-decode-string](https://github.com/woojeans7/Algorithm/tree/main/LeetCode/Medium/0394-decode-string/) | Medium |
 | [0735-asteroid-collision](https://github.com/woojeans7/Algorithm/tree/main/LeetCode/Medium/0735-asteroid-collision/) | Medium |
+| [0739-daily-temperatures](https://github.com/woojeans7/Algorithm/tree/main/LeetCode/Medium/0739-daily-temperatures/) | Medium |
 | [2130-maximum-twin-sum-of-a-linked-list](https://github.com/woojeans7/Algorithm/tree/main/LeetCode/Medium/2130-maximum-twin-sum-of-a-linked-list/) | Medium |
 | [2390-removing-stars-from-a-string](https://github.com/woojeans7/Algorithm/tree/main/LeetCode/Medium/2390-removing-stars-from-a-string/) | Medium |
 ## Dynamic Programming
@@ -220,4 +222,8 @@
 | [0437-path-sum-iii](https://github.com/woojeans7/Algorithm/tree/main/LeetCode/Medium/0437-path-sum-iii/) | Medium |
 | [0872-leaf-similar-trees](https://github.com/woojeans7/Algorithm/tree/main/LeetCode/Easy/0872-leaf-similar-trees/) | Easy |
 | [1448-count-good-nodes-in-binary-tree](https://github.com/woojeans7/Algorithm/tree/main/LeetCode/Medium/1448-count-good-nodes-in-binary-tree/) | Medium |
+## Monotonic Stack
+| Problem Name | Difficulty |
+| ------- | ------- |
+| [0739-daily-temperatures](https://github.com/woojeans7/Algorithm/tree/main/LeetCode/Medium/0739-daily-temperatures/) | Medium |
 <!---LeetCode Topics End-->
