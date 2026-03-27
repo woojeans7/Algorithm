@@ -128,6 +128,7 @@
 | [0785-is-graph-bipartite](https://github.com/woojeans7/Algorithm/tree/main/LeetCode/Medium/0785-is-graph-bipartite/) | Medium |
 | [0841-keys-and-rooms](https://github.com/woojeans7/Algorithm/tree/main/LeetCode/Medium/0841-keys-and-rooms/) | Medium |
 | [0872-leaf-similar-trees](https://github.com/woojeans7/Algorithm/tree/main/LeetCode/Easy/0872-leaf-similar-trees/) | Easy |
+| [1161-maximum-level-sum-of-a-binary-tree](https://github.com/woojeans7/Algorithm/tree/main/LeetCode/Medium/1161-maximum-level-sum-of-a-binary-tree/) | Medium |
 | [1372-longest-zigzag-path-in-a-binary-tree](https://github.com/woojeans7/Algorithm/tree/main/LeetCode/Medium/1372-longest-zigzag-path-in-a-binary-tree/) | Medium |
 | [1448-count-good-nodes-in-binary-tree](https://github.com/woojeans7/Algorithm/tree/main/LeetCode/Medium/1448-count-good-nodes-in-binary-tree/) | Medium |
 ## Breadth-First Search
@@ -138,6 +139,7 @@
 | [0322-coin-change](https://github.com/woojeans7/Algorithm/tree/main/LeetCode/Medium/0322-coin-change/) | Medium |
 | [0785-is-graph-bipartite](https://github.com/woojeans7/Algorithm/tree/main/LeetCode/Medium/0785-is-graph-bipartite/) | Medium |
 | [0841-keys-and-rooms](https://github.com/woojeans7/Algorithm/tree/main/LeetCode/Medium/0841-keys-and-rooms/) | Medium |
+| [1161-maximum-level-sum-of-a-binary-tree](https://github.com/woojeans7/Algorithm/tree/main/LeetCode/Medium/1161-maximum-level-sum-of-a-binary-tree/) | Medium |
 | [1448-count-good-nodes-in-binary-tree](https://github.com/woojeans7/Algorithm/tree/main/LeetCode/Medium/1448-count-good-nodes-in-binary-tree/) | Medium |
 ## Graph Theory
 | Problem Name | Difficulty |
@@ -221,6 +223,7 @@
 | [0236-lowest-common-ancestor-of-a-binary-tree](https://github.com/woojeans7/Algorithm/tree/main/LeetCode/Medium/0236-lowest-common-ancestor-of-a-binary-tree/) | Medium |
 | [0437-path-sum-iii](https://github.com/woojeans7/Algorithm/tree/main/LeetCode/Medium/0437-path-sum-iii/) | Medium |
 | [0872-leaf-similar-trees](https://github.com/woojeans7/Algorithm/tree/main/LeetCode/Easy/0872-leaf-similar-trees/) | Easy |
+| [1161-maximum-level-sum-of-a-binary-tree](https://github.com/woojeans7/Algorithm/tree/main/LeetCode/Medium/1161-maximum-level-sum-of-a-binary-tree/) | Medium |
 | [1372-longest-zigzag-path-in-a-binary-tree](https://github.com/woojeans7/Algorithm/tree/main/LeetCode/Medium/1372-longest-zigzag-path-in-a-binary-tree/) | Medium |
 | [1448-count-good-nodes-in-binary-tree](https://github.com/woojeans7/Algorithm/tree/main/LeetCode/Medium/1448-count-good-nodes-in-binary-tree/) | Medium |
 ## Binary Tree
@@ -231,6 +234,7 @@
 | [0236-lowest-common-ancestor-of-a-binary-tree](https://github.com/woojeans7/Algorithm/tree/main/LeetCode/Medium/0236-lowest-common-ancestor-of-a-binary-tree/) | Medium |
 | [0437-path-sum-iii](https://github.com/woojeans7/Algorithm/tree/main/LeetCode/Medium/0437-path-sum-iii/) | Medium |
 | [0872-leaf-similar-trees](https://github.com/woojeans7/Algorithm/tree/main/LeetCode/Easy/0872-leaf-similar-trees/) | Easy |
+| [1161-maximum-level-sum-of-a-binary-tree](https://github.com/woojeans7/Algorithm/tree/main/LeetCode/Medium/1161-maximum-level-sum-of-a-binary-tree/) | Medium |
 | [1372-longest-zigzag-path-in-a-binary-tree](https://github.com/woojeans7/Algorithm/tree/main/LeetCode/Medium/1372-longest-zigzag-path-in-a-binary-tree/) | Medium |
 | [1448-count-good-nodes-in-binary-tree](https://github.com/woojeans7/Algorithm/tree/main/LeetCode/Medium/1448-count-good-nodes-in-binary-tree/) | Medium |
 ## Monotonic Stack
