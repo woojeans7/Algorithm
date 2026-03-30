@@ -2,42 +2,31 @@ import java.util.*;
 
 class Solution {
     public int[] solution(int[] progresses, int[] speeds) {
-        Queue<Integer> q = new LinkedList<>();
-        Queue<Integer> s = new LinkedList<>();
-
-        // 1. 큐에 데이터 삽입
-        for (int i = 0; i < progresses.length; i++) {
-            q.offer(progresses[i]);
-            s.offer(speeds[i]);
-        }
-
+        int n = progresses.length;
         List<Integer> result = new ArrayList<>();
-
-        while (!q.isEmpty()) {
-            // 2. 하루치 진척도 누적
-            int size = q.size();
-            for (int i = 0; i < size; i++) {
-                int currentProgress = q.poll();
-                int currentSpeed = s.poll();
-                q.offer(currentProgress + currentSpeed);
-                s.offer(currentSpeed);
-            }
-
-            // 3. 배포 가능한 기능 체크
-            int count = 0;
-            while (!q.isEmpty() && q.peek() >= 100) {
-                q.poll();
-                s.poll();
-                count++;
-            }
-
-            // 4. 배포가 있었다면 결과에 추가
-            if (count > 0) {
-                result.add(count);
-            }
+            
+        // 큐에 남은 작업일을 저장
+        Queue<Integer> queue = new ArrayDeque<>();
+        for(int i = 0; i < n; i++){
+            int rest = (100 - progresses[i] + speeds[i] - 1) / speeds[i];
+            queue.offer(rest);
         }
-
-        // 5. 결과 리스트를 배열로 변환 후 리턴
-        return result.stream().mapToInt(i -> i).toArray();
+        
+        while(!queue.isEmpty()){
+            int current = queue.poll();
+            int count = 1;
+            
+            // 다음 작업이 현재보다 작거나 같으면 같이 배포
+            while(!queue.isEmpty() && queue.peek() <= current){
+                queue.poll();
+                count++;    
+            }
+            
+            result.add(count);
+        }
+        
+        int[] answer = result.stream().mapToInt(Integer::intValue).toArray();
+        
+        return answer;
     }
 }
