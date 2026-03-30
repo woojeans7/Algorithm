@@ -21,9 +21,7 @@ class Solution {
         return root;
     }
     private TreeNode minNode(TreeNode node){
-        int min = node.val;
         while(node.left != null){
-            min = node.left.val;
             node = node.left;
         }
         return node;
