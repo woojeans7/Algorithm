@@ -1,9 +1,9 @@
 class Solution {
     public int shortestPathBinaryMatrix(int[][] grid) {
 
+        int n = grid.length;
         if(grid[0][0] == 1  || grid[n-1][n-1] == 1) return -1;
 
-        int n = grid.length;
         int[][] distance = new int[n][n];
         for(int[] d : distance){
             Arrays.fill(d, -1);
