@@ -75,6 +75,7 @@
 | [0200-number-of-islands](https://github.com/woojeans7/Algorithm/tree/main/LeetCode/Medium/0200-number-of-islands/) | Medium |
 | [0238-product-of-array-except-self](https://github.com/woojeans7/Algorithm/tree/main/LeetCode/Medium/0238-product-of-array-except-self/) | Medium |
 | [0283-move-zeroes](https://github.com/woojeans7/Algorithm/tree/main/LeetCode/Easy/0283-move-zeroes/) | Easy |
+| [0300-longest-increasing-subsequence](https://github.com/woojeans7/Algorithm/tree/main/LeetCode/Medium/0300-longest-increasing-subsequence/) | Medium |
 | [0322-coin-change](https://github.com/woojeans7/Algorithm/tree/main/LeetCode/Medium/0322-coin-change/) | Medium |
 | [0334-increasing-triplet-subsequence](https://github.com/woojeans7/Algorithm/tree/main/LeetCode/Medium/0334-increasing-triplet-subsequence/) | Medium |
 | [0399-evaluate-division](https://github.com/woojeans7/Algorithm/tree/main/LeetCode/Medium/0399-evaluate-division/) | Medium |
@@ -119,6 +120,7 @@
 ## Dynamic Programming
 | Problem Name | Difficulty |
 | ------- | ------- |
+| [0300-longest-increasing-subsequence](https://github.com/woojeans7/Algorithm/tree/main/LeetCode/Medium/0300-longest-increasing-subsequence/) | Medium |
 | [0322-coin-change](https://github.com/woojeans7/Algorithm/tree/main/LeetCode/Medium/0322-coin-change/) | Medium |
 | [0392-is-subsequence](https://github.com/woojeans7/Algorithm/tree/main/LeetCode/Easy/0392-is-subsequence/) | Easy |
 | [1372-longest-zigzag-path-in-a-binary-tree](https://github.com/woojeans7/Algorithm/tree/main/LeetCode/Medium/1372-longest-zigzag-path-in-a-binary-tree/) | Medium |
@@ -189,6 +191,7 @@
 ## Binary Search
 | Problem Name | Difficulty |
 | ------- | ------- |
+| [0300-longest-increasing-subsequence](https://github.com/woojeans7/Algorithm/tree/main/LeetCode/Medium/0300-longest-increasing-subsequence/) | Medium |
 | [1004-max-consecutive-ones-iii](https://github.com/woojeans7/Algorithm/tree/main/LeetCode/Medium/1004-max-consecutive-ones-iii/) | Medium |
 ## Union-Find
 | Problem Name | Difficulty |
