@@ -66,6 +66,7 @@
 ## Math
 | Problem Name | Difficulty |
 | ------- | ------- |
+| [0062-unique-paths](https://github.com/woojeans7/Algorithm/tree/main/LeetCode/Medium/0062-unique-paths/) | Medium |
 | [1071-greatest-common-divisor-of-strings](https://github.com/woojeans7/Algorithm/tree/main/LeetCode/Easy/1071-greatest-common-divisor-of-strings/) | Easy |
 ## Array
 | Problem Name | Difficulty |
@@ -122,6 +123,7 @@
 ## Dynamic Programming
 | Problem Name | Difficulty |
 | ------- | ------- |
+| [0062-unique-paths](https://github.com/woojeans7/Algorithm/tree/main/LeetCode/Medium/0062-unique-paths/) | Medium |
 | [0300-longest-increasing-subsequence](https://github.com/woojeans7/Algorithm/tree/main/LeetCode/Medium/0300-longest-increasing-subsequence/) | Medium |
 | [0322-coin-change](https://github.com/woojeans7/Algorithm/tree/main/LeetCode/Medium/0322-coin-change/) | Medium |
 | [0392-is-subsequence](https://github.com/woojeans7/Algorithm/tree/main/LeetCode/Easy/0392-is-subsequence/) | Easy |
@@ -288,4 +290,8 @@
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [0399-evaluate-division](https://github.com/woojeans7/Algorithm/tree/main/LeetCode/Medium/0399-evaluate-division/) | Medium |
+## Combinatorics
+| Problem Name | Difficulty |
+| ------- | ------- |
+| [0062-unique-paths](https://github.com/woojeans7/Algorithm/tree/main/LeetCode/Medium/0062-unique-paths/) | Medium |
 <!---LeetCode Topics End-->
