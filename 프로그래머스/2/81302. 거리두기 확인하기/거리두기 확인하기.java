@@ -1,61 +1,57 @@
 import java.util.*;
 
 class Solution {
-    static int[] dr = {-1, 1, 0, 0,};
-    static int[] dc = {0, 0, -1, 1};
+    public int[] solution(String[][] places) {
+        int n = places.length;
+        int[] answer = new int[n];
 
-    public static int[] solution(String[][] places) {
-        int[] answer = new int[5];
-
-        for (int i = 0; i < 5; i++) {
-            char[][] grid = new char[5][5];
-
-            for (int j = 0; j < 5; j++) {
-                grid[j] = places[i][j].toCharArray();
+        // bfs로 거리두기 체크하는 로직
+        for(int i = 0; i < n; i++){
+            answer[i] = check(places[i]);
+        }
+        
+        return answer;
+    }
+    private int check(String[] place){
+        for(int i = 0; i < 5; i++){
+            for(int j = 0; j < 5; j++){
+                if(place[i].charAt(j) == 'P'){
+                    if(!bfs(i,j,place)) return 0;
+                }
             }
+        }
+        return 1;
+    }
+    private boolean bfs(int row, int col, String[] place){
+        Queue<int[]> queue = new ArrayDeque<>();
+        int[][] distance = new int[5][5];
+        for(int[] d : distance){
+            Arrays.fill(d, -1);
+        }
+        queue.offer(new int[]{row, col});
+        distance[row][col] = 0;
 
-            boolean valid = true;
+        int[] dr = {-1, 1, 0, 0};
+        int[] dc = {0, 0, -1, 1};
+        while(!queue.isEmpty()){
+            int[] cur = queue.poll();
+            int r = cur[0];
+            int c = cur[1];
 
-            for (int j = 0; j < 5; j++) {
-                for (int k = 0; k < 5; k++) {
-                    // 시작점 예약
-                    boolean[][] visited = new boolean[5][5];
-                    Queue<int[]> queue = new ArrayDeque<>();
-                    if (grid[j][k] == 'P') {
-                        queue.offer(new int[]{j, k, 0});
-                        visited[j][k] = true;
+            if(distance[r][c] >= 2) continue;
+            for(int i = 0; i < 4; i++){
+                int nr = r + dr[i];
+                int nc = c + dc[i];
 
-                        // 방문
-                        while (!queue.isEmpty()) {
-                            int[] cur = queue.poll();
-                            int r = cur[0];
-                            int c = cur[1];
-                            int dist = cur[2];
-
-                            if (dist >= 1 && grid[r][c] == 'P') {
-                                valid = false;
-                                break;
-                            }
-
-                            if (dist == 2) continue;
-
-                            // 예약
-                            for(int t=0; t<4; t++){
-                                int nr = r + dr[t];
-                                int nc = c + dc[t];
-                                if((0 <= nr && nr < 5) && (0 <= nc && nc < 5) && grid[nr][nc] != 'X'){
-                                    if(!visited[nr][nc]){
-                                        visited[nr][nc] = true;
-                                        queue.offer(new int[]{nr, nc, dist + 1});
-                                    }
-                                }
-                            }
-                        }
+                if(nr >= 0 && nr < 5 && nc >= 0 && nc < 5 && place[nr].charAt(nc) != 'X'){
+                    if(distance[nr][nc] == -1){
+                        if (place[nr].charAt(nc) == 'P') return false;
+                        queue.offer(new int[]{nr, nc});
+                        distance[nr][nc] = distance[r][c] + 1;
                     }
                 }
             }
-            answer[i] = valid ? 1 : 0;
         }
-        return answer;
+        return true;
     }
 }
