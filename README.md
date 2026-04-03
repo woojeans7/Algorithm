@@ -68,6 +68,7 @@
 | ------- | ------- |
 | [0062-unique-paths](https://github.com/woojeans7/Algorithm/tree/main/LeetCode/Medium/0062-unique-paths/) | Medium |
 | [1071-greatest-common-divisor-of-strings](https://github.com/woojeans7/Algorithm/tree/main/LeetCode/Easy/1071-greatest-common-divisor-of-strings/) | Easy |
+| [1137-n-th-tribonacci-number](https://github.com/woojeans7/Algorithm/tree/main/LeetCode/Easy/1137-n-th-tribonacci-number/) | Easy |
 ## Array
 | Problem Name | Difficulty |
 | ------- | ------- |
@@ -127,6 +128,7 @@
 | [0300-longest-increasing-subsequence](https://github.com/woojeans7/Algorithm/tree/main/LeetCode/Medium/0300-longest-increasing-subsequence/) | Medium |
 | [0322-coin-change](https://github.com/woojeans7/Algorithm/tree/main/LeetCode/Medium/0322-coin-change/) | Medium |
 | [0392-is-subsequence](https://github.com/woojeans7/Algorithm/tree/main/LeetCode/Easy/0392-is-subsequence/) | Easy |
+| [1137-n-th-tribonacci-number](https://github.com/woojeans7/Algorithm/tree/main/LeetCode/Easy/1137-n-th-tribonacci-number/) | Easy |
 | [1372-longest-zigzag-path-in-a-binary-tree](https://github.com/woojeans7/Algorithm/tree/main/LeetCode/Medium/1372-longest-zigzag-path-in-a-binary-tree/) | Medium |
 | [1493-longest-subarray-of-1s-after-deleting-one-element](https://github.com/woojeans7/Algorithm/tree/main/LeetCode/Medium/1493-longest-subarray-of-1s-after-deleting-one-element/) | Medium |
 ## Depth-First Search
@@ -294,4 +296,8 @@
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [0062-unique-paths](https://github.com/woojeans7/Algorithm/tree/main/LeetCode/Medium/0062-unique-paths/) | Medium |
+## Memoization
+| Problem Name | Difficulty |
+| ------- | ------- |
+| [1137-n-th-tribonacci-number](https://github.com/woojeans7/Algorithm/tree/main/LeetCode/Easy/1137-n-th-tribonacci-number/) | Easy |
 <!---LeetCode Topics End-->
