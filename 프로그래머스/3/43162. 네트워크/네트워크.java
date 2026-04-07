@@ -1,22 +1,24 @@
+import java.util.*;
+
 class Solution {
     public int solution(int n, int[][] computers) {
         int answer = 0;
         boolean[] visited = new boolean[n];
         
-        for(int i =0; i<n;i++){
-            if(!visited[i]) {
-                dfs(computers, visited, i);
+        for(int i = 0; i < n; i++){
+            if(!visited[i]){
+                dfs(n, i, computers, visited);
                 answer++;
-            }   
+            }
         }
         return answer;
     }
-    void dfs(int[][] computers, boolean[] visited, int curVertex){
-        visited[curVertex] = true;
+    private void dfs(int n, int cur, int[][] computers, boolean[] visited){
+        visited[cur] = true;
         
-         for (int nextVertex = 0; nextVertex < computers.length; nextVertex++) {
-            if (computers[curVertex][nextVertex] == 1 && !visited[nextVertex]) {
-                dfs(computers, visited, nextVertex);
+        for(int next = 0; next < n; next++){
+            if(!visited[next] && computers[cur][next] == 1){
+                dfs(n, next, computers, visited);
             }
         }
     }
