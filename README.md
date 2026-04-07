@@ -134,6 +134,7 @@
 | [0322-coin-change](https://github.com/woojeans7/Algorithm/tree/main/LeetCode/Medium/0322-coin-change/) | Medium |
 | [0392-is-subsequence](https://github.com/woojeans7/Algorithm/tree/main/LeetCode/Easy/0392-is-subsequence/) | Easy |
 | [0746-min-cost-climbing-stairs](https://github.com/woojeans7/Algorithm/tree/main/LeetCode/Easy/0746-min-cost-climbing-stairs/) | Easy |
+| [0790-domino-and-tromino-tiling](https://github.com/woojeans7/Algorithm/tree/main/LeetCode/Medium/0790-domino-and-tromino-tiling/) | Medium |
 | [1137-n-th-tribonacci-number](https://github.com/woojeans7/Algorithm/tree/main/LeetCode/Easy/1137-n-th-tribonacci-number/) | Easy |
 | [1143-longest-common-subsequence](https://github.com/woojeans7/Algorithm/tree/main/LeetCode/Medium/1143-longest-common-subsequence/) | Medium |
 | [1372-longest-zigzag-path-in-a-binary-tree](https://github.com/woojeans7/Algorithm/tree/main/LeetCode/Medium/1372-longest-zigzag-path-in-a-binary-tree/) | Medium |
