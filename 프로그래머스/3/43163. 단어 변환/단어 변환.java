@@ -1,54 +1,51 @@
 import java.util.*;
 
 class Solution {
-    static boolean[] visited;
-    static int answer = Integer.MAX_VALUE;
-
+    private class Word{
+        String word;
+        int count;    
+        // 생성자
+        Word(String word, int count){
+            this.word = word;
+            this.count = count;
+        }
+    }
+    
     public int solution(String begin, String target, String[] words) {
-        List<String> wordList = Arrays.asList(words);  // words안에서 단어를 바로 찾기 위해 리스트로 변환
-        if (!wordList.contains(target)) {
-            answer = 0;
+        Queue<Word> queue = new ArrayDeque<>();
+        boolean[] visited = new boolean[words.length];
+        
+        // bfs 탐색
+        // 시작점 예약
+        queue.add(new Word(begin, 0));
+        while(!queue.isEmpty()){
+            Word cur = queue.poll();
+            
+            // target에 도달하면 카운트 반환
+            if(cur.word.equals(target)) return cur.count;
+            
+            // 몇 번 반환했는지 체크   
+            for(int n=0; n< words.length; n++){
+                if(!visited[n] && getDiff(cur.word, words[n])){
+                    queue.add(new Word(words[n], cur.count + 1));
+                    visited[n] = true;
+                }    
+            }
+             
         }
 
-        visited = new boolean[words.length];
-
-        dfs(begin, target, words, 0);
-
-        return answer == Integer.MAX_VALUE ? 0 : answer;
+        return 0;
     }
-    // s1에서 s2로 변환할 수 있는지 체크
-    public boolean canChange(String s1, String s2) {
-        int diff =0;
-
-        for (int i = 0; i < s1.length(); i++) {
-            if (s1.charAt(i) != s2.charAt(i)) {
-                if (++diff > 1) return false;  // 2글자 이상 다르면 조기 종료
+    // 단어 수 차이가 1개인지 체크하는 메서드
+    private boolean getDiff(String s1, String s2){
+        // 단어 크기만큼 반복문
+        int cnt = 0;
+        for(int i = 0; i < s1.length(); i++){
+            if(s1.charAt(i) != s2.charAt(i)){
+                cnt++;
             }
         }
-
-        return diff == 1;
-    }
-
-    public void dfs(String begin, String target, String[] words, int cnt) {
-        // target과 동일해졌다면
-        if(begin.equals(target)) {
-            answer = Math.min(answer, cnt);
-            return;
-        }
-
-        // 모든 단어에 대해 탐색
-        for (int i = 0; i < words.length; i++) {
-            // 이미 방문한 단어는 스킵
-            if (visited[i]) {
-                continue;
-            }
-
-            // 한 글자만 다른 단어 dfs 실행
-            if(canChange(begin, words[i])) {
-                visited[i] = true;
-                dfs(words[i], target, words, cnt+1); // 변환횟수도 카운트
-                visited[i] = false; // 백트래킹
-            }
-        }
+        if(cnt == 1) return true;
+        return false;
     }
 }
