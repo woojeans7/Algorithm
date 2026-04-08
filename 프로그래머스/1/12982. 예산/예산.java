@@ -2,21 +2,18 @@ import java.util.*;
 
 class Solution {
     public int solution(int[] d, int budget) {
-
-        // 1. 정렬
+		    //✅ d를 정렬한다.
         Arrays.sort(d);
+        int result = 0;
         
-        // System.out.println(Arrays.toString(d)); // 디버깅용
-        
-        // 2. 예산에서 부서별 금액 차감
-        int cnt = 0;
-        for(int i : d){
-            if(budget >= i){
-                budget -= i;
-                // 3. 지급한 부서 카운팅
-                cnt += 1;
-            }
+        //✅ 예산이 적은 부서부터 전체 예산이 소진될 때까지 지급한다.
+        for (int price : d) {
+            budget -= price;
+            if (budget < 0) break;
+            result++;
         }
-        return cnt;
+        
+        //✅ 예산을 지급한 부서의 개수를 반환한다.
+        return result;
     }
 }
