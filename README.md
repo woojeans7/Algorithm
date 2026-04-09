@@ -215,6 +215,7 @@
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [0300-longest-increasing-subsequence](https://github.com/woojeans7/Algorithm/tree/main/LeetCode/Medium/0300-longest-increasing-subsequence/) | Medium |
+| [0374-guess-number-higher-or-lower](https://github.com/woojeans7/Algorithm/tree/main/LeetCode/Easy/0374-guess-number-higher-or-lower/) | Easy |
 | [1004-max-consecutive-ones-iii](https://github.com/woojeans7/Algorithm/tree/main/LeetCode/Medium/1004-max-consecutive-ones-iii/) | Medium |
 ## Union-Find
 | Problem Name | Difficulty |
@@ -336,4 +337,8 @@
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [2336-smallest-number-in-infinite-set](https://github.com/woojeans7/Algorithm/tree/main/LeetCode/Medium/2336-smallest-number-in-infinite-set/) | Medium |
+## Interactive
+| Problem Name | Difficulty |
+| ------- | ------- |
+| [0374-guess-number-higher-or-lower](https://github.com/woojeans7/Algorithm/tree/main/LeetCode/Easy/0374-guess-number-higher-or-lower/) | Easy |
 <!---LeetCode Topics End-->
