@@ -95,6 +95,7 @@
 | [0746-min-cost-climbing-stairs](https://github.com/woojeans7/Algorithm/tree/main/LeetCode/Easy/0746-min-cost-climbing-stairs/) | Easy |
 | [0994-rotting-oranges](https://github.com/woojeans7/Algorithm/tree/main/LeetCode/Medium/0994-rotting-oranges/) | Medium |
 | [1004-max-consecutive-ones-iii](https://github.com/woojeans7/Algorithm/tree/main/LeetCode/Medium/1004-max-consecutive-ones-iii/) | Medium |
+| [1051-height-checker](https://github.com/woojeans7/Algorithm/tree/main/LeetCode/Easy/1051-height-checker/) | Easy |
 | [1091-shortest-path-in-binary-matrix](https://github.com/woojeans7/Algorithm/tree/main/LeetCode/Medium/1091-shortest-path-in-binary-matrix/) | Medium |
 | [1207-unique-number-of-occurrences](https://github.com/woojeans7/Algorithm/tree/main/LeetCode/Easy/1207-unique-number-of-occurrences/) | Easy |
 | [1431-kids-with-the-greatest-number-of-candies](https://github.com/woojeans7/Algorithm/tree/main/LeetCode/Easy/1431-kids-with-the-greatest-number-of-candies/) | Easy |
@@ -206,6 +207,7 @@
 | [0049-group-anagrams](https://github.com/woojeans7/Algorithm/tree/main/LeetCode/Medium/0049-group-anagrams/) | Medium |
 | [0215-kth-largest-element-in-an-array](https://github.com/woojeans7/Algorithm/tree/main/LeetCode/Medium/0215-kth-largest-element-in-an-array/) | Medium |
 | [0217-contains-duplicate](https://github.com/woojeans7/Algorithm/tree/main/LeetCode/Easy/0217-contains-duplicate/) | Easy |
+| [1051-height-checker](https://github.com/woojeans7/Algorithm/tree/main/LeetCode/Easy/1051-height-checker/) | Easy |
 | [1657-determine-if-two-strings-are-close](https://github.com/woojeans7/Algorithm/tree/main/LeetCode/Medium/1657-determine-if-two-strings-are-close/) | Medium |
 | [1679-max-number-of-k-sum-pairs](https://github.com/woojeans7/Algorithm/tree/main/LeetCode/Medium/1679-max-number-of-k-sum-pairs/) | Medium |
 | [2300-successful-pairs-of-spells-and-potions](https://github.com/woojeans7/Algorithm/tree/main/LeetCode/Medium/2300-successful-pairs-of-spells-and-potions/) | Medium |
@@ -348,4 +350,8 @@
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [0374-guess-number-higher-or-lower](https://github.com/woojeans7/Algorithm/tree/main/LeetCode/Easy/0374-guess-number-higher-or-lower/) | Easy |
+## Counting Sort
+| Problem Name | Difficulty |
+| ------- | ------- |
+| [1051-height-checker](https://github.com/woojeans7/Algorithm/tree/main/LeetCode/Easy/1051-height-checker/) | Easy |
 <!---LeetCode Topics End-->
