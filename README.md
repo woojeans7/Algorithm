@@ -80,6 +80,7 @@
 | [0198-house-robber](https://github.com/woojeans7/Algorithm/tree/main/LeetCode/Medium/0198-house-robber/) | Medium |
 | [0200-number-of-islands](https://github.com/woojeans7/Algorithm/tree/main/LeetCode/Medium/0200-number-of-islands/) | Medium |
 | [0215-kth-largest-element-in-an-array](https://github.com/woojeans7/Algorithm/tree/main/LeetCode/Medium/0215-kth-largest-element-in-an-array/) | Medium |
+| [0217-contains-duplicate](https://github.com/woojeans7/Algorithm/tree/main/LeetCode/Easy/0217-contains-duplicate/) | Easy |
 | [0238-product-of-array-except-self](https://github.com/woojeans7/Algorithm/tree/main/LeetCode/Medium/0238-product-of-array-except-self/) | Medium |
 | [0283-move-zeroes](https://github.com/woojeans7/Algorithm/tree/main/LeetCode/Easy/0283-move-zeroes/) | Easy |
 | [0300-longest-increasing-subsequence](https://github.com/woojeans7/Algorithm/tree/main/LeetCode/Medium/0300-longest-increasing-subsequence/) | Medium |
@@ -192,6 +193,7 @@
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [0049-group-anagrams](https://github.com/woojeans7/Algorithm/tree/main/LeetCode/Medium/0049-group-anagrams/) | Medium |
+| [0217-contains-duplicate](https://github.com/woojeans7/Algorithm/tree/main/LeetCode/Easy/0217-contains-duplicate/) | Easy |
 | [1207-unique-number-of-occurrences](https://github.com/woojeans7/Algorithm/tree/main/LeetCode/Easy/1207-unique-number-of-occurrences/) | Easy |
 | [1657-determine-if-two-strings-are-close](https://github.com/woojeans7/Algorithm/tree/main/LeetCode/Medium/1657-determine-if-two-strings-are-close/) | Medium |
 | [1679-max-number-of-k-sum-pairs](https://github.com/woojeans7/Algorithm/tree/main/LeetCode/Medium/1679-max-number-of-k-sum-pairs/) | Medium |
@@ -203,6 +205,7 @@
 | ------- | ------- |
 | [0049-group-anagrams](https://github.com/woojeans7/Algorithm/tree/main/LeetCode/Medium/0049-group-anagrams/) | Medium |
 | [0215-kth-largest-element-in-an-array](https://github.com/woojeans7/Algorithm/tree/main/LeetCode/Medium/0215-kth-largest-element-in-an-array/) | Medium |
+| [0217-contains-duplicate](https://github.com/woojeans7/Algorithm/tree/main/LeetCode/Easy/0217-contains-duplicate/) | Easy |
 | [1657-determine-if-two-strings-are-close](https://github.com/woojeans7/Algorithm/tree/main/LeetCode/Medium/1657-determine-if-two-strings-are-close/) | Medium |
 | [1679-max-number-of-k-sum-pairs](https://github.com/woojeans7/Algorithm/tree/main/LeetCode/Medium/1679-max-number-of-k-sum-pairs/) | Medium |
 | [2300-successful-pairs-of-spells-and-potions](https://github.com/woojeans7/Algorithm/tree/main/LeetCode/Medium/2300-successful-pairs-of-spells-and-potions/) | Medium |
