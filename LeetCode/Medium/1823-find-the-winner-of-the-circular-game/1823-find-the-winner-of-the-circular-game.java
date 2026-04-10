@@ -2,22 +2,17 @@ class Solution {
     public int findTheWinner(int n, int k) {
         Queue<Integer> queue = new ArrayDeque<>();
 
-        int winner = 0;
-
         for(int i = 1; i <= n; i++){
             queue.offer(i);
         }
         
-        while(!queue.isEmpty()){
+        while(queue.size() > 1){
             for(int i = 1; i < k; i++){
-                int w = queue.poll();
-                queue.offer(w);
+                queue.offer(queue.poll());
             }
-            winner = queue.poll();
-            if(queue.size() == 1){
-                winner = queue.poll();
-            }
+
+            queue.poll();
         }
-        return winner;
+        return queue.poll();
     }
 }
