@@ -70,6 +70,7 @@
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [0062-unique-paths](https://github.com/woojeans7/Algorithm/tree/main/LeetCode/Medium/0062-unique-paths/) | Medium |
+| [0070-climbing-stairs](https://github.com/woojeans7/Algorithm/tree/main/LeetCode/Easy/0070-climbing-stairs/) | Easy |
 | [1071-greatest-common-divisor-of-strings](https://github.com/woojeans7/Algorithm/tree/main/LeetCode/Easy/1071-greatest-common-divisor-of-strings/) | Easy |
 | [1137-n-th-tribonacci-number](https://github.com/woojeans7/Algorithm/tree/main/LeetCode/Easy/1137-n-th-tribonacci-number/) | Easy |
 | [1823-find-the-winner-of-the-circular-game](https://github.com/woojeans7/Algorithm/tree/main/LeetCode/Medium/1823-find-the-winner-of-the-circular-game/) | Medium |
@@ -141,6 +142,7 @@
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [0062-unique-paths](https://github.com/woojeans7/Algorithm/tree/main/LeetCode/Medium/0062-unique-paths/) | Medium |
+| [0070-climbing-stairs](https://github.com/woojeans7/Algorithm/tree/main/LeetCode/Easy/0070-climbing-stairs/) | Easy |
 | [0198-house-robber](https://github.com/woojeans7/Algorithm/tree/main/LeetCode/Medium/0198-house-robber/) | Medium |
 | [0300-longest-increasing-subsequence](https://github.com/woojeans7/Algorithm/tree/main/LeetCode/Medium/0300-longest-increasing-subsequence/) | Medium |
 | [0322-coin-change](https://github.com/woojeans7/Algorithm/tree/main/LeetCode/Medium/0322-coin-change/) | Medium |
@@ -335,6 +337,7 @@
 ## Memoization
 | Problem Name | Difficulty |
 | ------- | ------- |
+| [0070-climbing-stairs](https://github.com/woojeans7/Algorithm/tree/main/LeetCode/Easy/0070-climbing-stairs/) | Easy |
 | [1137-n-th-tribonacci-number](https://github.com/woojeans7/Algorithm/tree/main/LeetCode/Easy/1137-n-th-tribonacci-number/) | Easy |
 ## Divide and Conquer
 | Problem Name | Difficulty |
