@@ -1,32 +1,21 @@
-import java.util.*;
-
 class Solution {
-    static boolean[] visited;
-
     public List<List<Integer>> permute(int[] nums) {
-        int n = nums.length;
-        visited = new boolean[n];
         List<List<Integer>> answer = new ArrayList<>();
-        List<Integer> perm = new ArrayList<>();
-
-        permutation(answer, nums,perm, n, 0);
+        boolean[] visited = new boolean[nums.length];
+        dfs(nums, new ArrayList<>(), visited, answer);
         return answer;
     }
-
-    public void permutation(List<List<Integer>> answer, int[] nums, List<Integer> perm, int n, int depth){
-        
-        if (depth == n) {
-            answer.add(new ArrayList<>(perm));
-            return;
+    private void dfs(int[] nums, List<Integer> cur, boolean[] visited, List<List<Integer>> answer){
+        if(cur.size() == nums.length){
+            answer.add(new ArrayList<>(cur));
         }
-
-        for (int i = 0; i < n; i++) {
-            if (!visited[i]) {
+        for(int i = 0; i < nums.length; i++){
+            if(!visited[i]){
+                cur.add(nums[i]);
                 visited[i] = true;
-                perm.add(nums[i]);
-                permutation(answer, nums, perm, n, depth + 1);
+                dfs(nums, cur, visited, answer);
+                cur.remove(cur.size()-1);
                 visited[i] = false;
-                perm.remove(perm.size() - 1);
             }
         }
     }
