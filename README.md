@@ -79,6 +79,7 @@
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [0011-container-with-most-water](https://github.com/woojeans7/Algorithm/tree/main/LeetCode/Medium/0011-container-with-most-water/) | Medium |
+| [0046-permutations](https://github.com/woojeans7/Algorithm/tree/main/LeetCode/Medium/0046-permutations/) | Medium |
 | [0049-group-anagrams](https://github.com/woojeans7/Algorithm/tree/main/LeetCode/Medium/0049-group-anagrams/) | Medium |
 | [0162-find-peak-element](https://github.com/woojeans7/Algorithm/tree/main/LeetCode/Medium/0162-find-peak-element/) | Medium |
 | [0198-house-robber](https://github.com/woojeans7/Algorithm/tree/main/LeetCode/Medium/0198-house-robber/) | Medium |
@@ -373,6 +374,7 @@
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [0017-letter-combinations-of-a-phone-number](https://github.com/woojeans7/Algorithm/tree/main/LeetCode/Medium/0017-letter-combinations-of-a-phone-number/) | Medium |
+| [0046-permutations](https://github.com/woojeans7/Algorithm/tree/main/LeetCode/Medium/0046-permutations/) | Medium |
 | [0077-combinations](https://github.com/woojeans7/Algorithm/tree/main/LeetCode/Medium/0077-combinations/) | Medium |
 | [0216-combination-sum-iii](https://github.com/woojeans7/Algorithm/tree/main/LeetCode/Medium/0216-combination-sum-iii/) | Medium |
 <!---LeetCode Topics End-->
