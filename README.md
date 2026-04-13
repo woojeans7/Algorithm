@@ -51,6 +51,7 @@
 ## String
 | Problem Name | Difficulty |
 | ------- | ------- |
+| [0017-letter-combinations-of-a-phone-number](https://github.com/woojeans7/Algorithm/tree/main/LeetCode/Medium/0017-letter-combinations-of-a-phone-number/) | Medium |
 | [0020-valid-parentheses](https://github.com/woojeans7/Algorithm/tree/main/LeetCode/Easy/0020-valid-parentheses/) | Easy |
 | [0049-group-anagrams](https://github.com/woojeans7/Algorithm/tree/main/LeetCode/Medium/0049-group-anagrams/) | Medium |
 | [0151-reverse-words-in-a-string](https://github.com/woojeans7/Algorithm/tree/main/LeetCode/Medium/0151-reverse-words-in-a-string/) | Medium |
@@ -199,6 +200,7 @@
 ## Hash Table
 | Problem Name | Difficulty |
 | ------- | ------- |
+| [0017-letter-combinations-of-a-phone-number](https://github.com/woojeans7/Algorithm/tree/main/LeetCode/Medium/0017-letter-combinations-of-a-phone-number/) | Medium |
 | [0049-group-anagrams](https://github.com/woojeans7/Algorithm/tree/main/LeetCode/Medium/0049-group-anagrams/) | Medium |
 | [0217-contains-duplicate](https://github.com/woojeans7/Algorithm/tree/main/LeetCode/Easy/0217-contains-duplicate/) | Easy |
 | [1207-unique-number-of-occurrences](https://github.com/woojeans7/Algorithm/tree/main/LeetCode/Easy/1207-unique-number-of-occurrences/) | Easy |
@@ -366,4 +368,8 @@
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [1051-height-checker](https://github.com/woojeans7/Algorithm/tree/main/LeetCode/Easy/1051-height-checker/) | Easy |
+## Backtracking
+| Problem Name | Difficulty |
+| ------- | ------- |
+| [0017-letter-combinations-of-a-phone-number](https://github.com/woojeans7/Algorithm/tree/main/LeetCode/Medium/0017-letter-combinations-of-a-phone-number/) | Medium |
 <!---LeetCode Topics End-->
