@@ -81,6 +81,7 @@
 | [0011-container-with-most-water](https://github.com/woojeans7/Algorithm/tree/main/LeetCode/Medium/0011-container-with-most-water/) | Medium |
 | [0046-permutations](https://github.com/woojeans7/Algorithm/tree/main/LeetCode/Medium/0046-permutations/) | Medium |
 | [0049-group-anagrams](https://github.com/woojeans7/Algorithm/tree/main/LeetCode/Medium/0049-group-anagrams/) | Medium |
+| [0055-jump-game](https://github.com/woojeans7/Algorithm/tree/main/LeetCode/Medium/0055-jump-game/) | Medium |
 | [0162-find-peak-element](https://github.com/woojeans7/Algorithm/tree/main/LeetCode/Medium/0162-find-peak-element/) | Medium |
 | [0198-house-robber](https://github.com/woojeans7/Algorithm/tree/main/LeetCode/Medium/0198-house-robber/) | Medium |
 | [0200-number-of-islands](https://github.com/woojeans7/Algorithm/tree/main/LeetCode/Medium/0200-number-of-islands/) | Medium |
@@ -120,6 +121,7 @@
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [0011-container-with-most-water](https://github.com/woojeans7/Algorithm/tree/main/LeetCode/Medium/0011-container-with-most-water/) | Medium |
+| [0055-jump-game](https://github.com/woojeans7/Algorithm/tree/main/LeetCode/Medium/0055-jump-game/) | Medium |
 | [0334-increasing-triplet-subsequence](https://github.com/woojeans7/Algorithm/tree/main/LeetCode/Medium/0334-increasing-triplet-subsequence/) | Medium |
 | [0605-can-place-flowers](https://github.com/woojeans7/Algorithm/tree/main/LeetCode/Easy/0605-can-place-flowers/) | Easy |
 | [0649-dota2-senate](https://github.com/woojeans7/Algorithm/tree/main/LeetCode/Medium/0649-dota2-senate/) | Medium |
@@ -144,6 +146,7 @@
 ## Dynamic Programming
 | Problem Name | Difficulty |
 | ------- | ------- |
+| [0055-jump-game](https://github.com/woojeans7/Algorithm/tree/main/LeetCode/Medium/0055-jump-game/) | Medium |
 | [0062-unique-paths](https://github.com/woojeans7/Algorithm/tree/main/LeetCode/Medium/0062-unique-paths/) | Medium |
 | [0070-climbing-stairs](https://github.com/woojeans7/Algorithm/tree/main/LeetCode/Easy/0070-climbing-stairs/) | Easy |
 | [0198-house-robber](https://github.com/woojeans7/Algorithm/tree/main/LeetCode/Medium/0198-house-robber/) | Medium |
