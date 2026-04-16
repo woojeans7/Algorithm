@@ -80,6 +80,7 @@
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [0011-container-with-most-water](https://github.com/woojeans7/Algorithm/tree/main/LeetCode/Medium/0011-container-with-most-water/) | Medium |
+| [0045-jump-game-ii](https://github.com/woojeans7/Algorithm/tree/main/LeetCode/Medium/0045-jump-game-ii/) | Medium |
 | [0046-permutations](https://github.com/woojeans7/Algorithm/tree/main/LeetCode/Medium/0046-permutations/) | Medium |
 | [0049-group-anagrams](https://github.com/woojeans7/Algorithm/tree/main/LeetCode/Medium/0049-group-anagrams/) | Medium |
 | [0055-jump-game](https://github.com/woojeans7/Algorithm/tree/main/LeetCode/Medium/0055-jump-game/) | Medium |
@@ -125,6 +126,7 @@
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [0011-container-with-most-water](https://github.com/woojeans7/Algorithm/tree/main/LeetCode/Medium/0011-container-with-most-water/) | Medium |
+| [0045-jump-game-ii](https://github.com/woojeans7/Algorithm/tree/main/LeetCode/Medium/0045-jump-game-ii/) | Medium |
 | [0055-jump-game](https://github.com/woojeans7/Algorithm/tree/main/LeetCode/Medium/0055-jump-game/) | Medium |
 | [0334-increasing-triplet-subsequence](https://github.com/woojeans7/Algorithm/tree/main/LeetCode/Medium/0334-increasing-triplet-subsequence/) | Medium |
 | [0605-can-place-flowers](https://github.com/woojeans7/Algorithm/tree/main/LeetCode/Easy/0605-can-place-flowers/) | Easy |
@@ -151,6 +153,7 @@
 ## Dynamic Programming
 | Problem Name | Difficulty |
 | ------- | ------- |
+| [0045-jump-game-ii](https://github.com/woojeans7/Algorithm/tree/main/LeetCode/Medium/0045-jump-game-ii/) | Medium |
 | [0055-jump-game](https://github.com/woojeans7/Algorithm/tree/main/LeetCode/Medium/0055-jump-game/) | Medium |
 | [0062-unique-paths](https://github.com/woojeans7/Algorithm/tree/main/LeetCode/Medium/0062-unique-paths/) | Medium |
 | [0070-climbing-stairs](https://github.com/woojeans7/Algorithm/tree/main/LeetCode/Easy/0070-climbing-stairs/) | Easy |
