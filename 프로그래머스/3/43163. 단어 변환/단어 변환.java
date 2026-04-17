@@ -1,51 +1,46 @@
 import java.util.*;
 
-class Solution {
-    private class Word{
-        String word;
-        int count;    
-        // 생성자
-        Word(String word, int count){
-            this.word = word;
-            this.count = count;
-        }
-    }
+class State{
+    String word;
+    int cnt;
     
+    public State(String word, int cnt){
+        this.word = word;
+        this.cnt = cnt;
+    }
+}
+class Solution {
     public int solution(String begin, String target, String[] words) {
-        Queue<Word> queue = new ArrayDeque<>();
-        boolean[] visited = new boolean[words.length];
         
-        // bfs 탐색
-        // 시작점 예약
-        queue.add(new Word(begin, 0));
+        Queue<State> queue = new ArrayDeque<>();
+        boolean[] visited = new boolean[words.length];
+        queue.offer(new State(begin, 0));
+        
         while(!queue.isEmpty()){
-            Word cur = queue.poll();
+            State cur = queue.poll();
             
-            // target에 도달하면 카운트 반환
-            if(cur.word.equals(target)) return cur.count;
+            if(cur.word.equals(target)) return cur.cnt;
             
-            // 몇 번 반환했는지 체크   
-            for(int n=0; n< words.length; n++){
-                if(!visited[n] && getDiff(cur.word, words[n])){
-                    queue.add(new Word(words[n], cur.count + 1));
-                    visited[n] = true;
-                }    
+            for(int i = 0; i < words.length; i++){
+                String next = words[i];
+                
+                if(!visited[i] && getDiff(cur.word, next)){
+                    visited[i] = true;
+                    queue.offer(new State(next, cur.cnt + 1));
+                }
             }
-             
         }
-
+        
         return 0;
     }
-    // 단어 수 차이가 1개인지 체크하는 메서드
-    private boolean getDiff(String s1, String s2){
-        // 단어 크기만큼 반복문
-        int cnt = 0;
-        for(int i = 0; i < s1.length(); i++){
-            if(s1.charAt(i) != s2.charAt(i)){
-                cnt++;
-            }
+    private boolean getDiff(String word1, String word2){
+        int count = 0;
+        for(int i = 0; i < word1.length(); i++){
+            if(word1.charAt(i) != word2.charAt(i)) count++;
         }
-        if(cnt == 1) return true;
+        
+        if(count == 1) return true;
+        
         return false;
     }
 }
