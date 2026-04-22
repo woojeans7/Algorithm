@@ -56,6 +56,7 @@
 | [0049-group-anagrams](https://github.com/woojeans7/Algorithm/tree/main/LeetCode/Medium/0049-group-anagrams/) | Medium |
 | [0072-edit-distance](https://github.com/woojeans7/Algorithm/tree/main/LeetCode/Medium/0072-edit-distance/) | Medium |
 | [0151-reverse-words-in-a-string](https://github.com/woojeans7/Algorithm/tree/main/LeetCode/Medium/0151-reverse-words-in-a-string/) | Medium |
+| [0242-valid-anagram](https://github.com/woojeans7/Algorithm/tree/main/LeetCode/Easy/0242-valid-anagram/) | Easy |
 | [0345-reverse-vowels-of-a-string](https://github.com/woojeans7/Algorithm/tree/main/LeetCode/Easy/0345-reverse-vowels-of-a-string/) | Easy |
 | [0392-is-subsequence](https://github.com/woojeans7/Algorithm/tree/main/LeetCode/Easy/0392-is-subsequence/) | Easy |
 | [0394-decode-string](https://github.com/woojeans7/Algorithm/tree/main/LeetCode/Medium/0394-decode-string/) | Medium |
@@ -219,6 +220,7 @@
 | [0017-letter-combinations-of-a-phone-number](https://github.com/woojeans7/Algorithm/tree/main/LeetCode/Medium/0017-letter-combinations-of-a-phone-number/) | Medium |
 | [0049-group-anagrams](https://github.com/woojeans7/Algorithm/tree/main/LeetCode/Medium/0049-group-anagrams/) | Medium |
 | [0217-contains-duplicate](https://github.com/woojeans7/Algorithm/tree/main/LeetCode/Easy/0217-contains-duplicate/) | Easy |
+| [0242-valid-anagram](https://github.com/woojeans7/Algorithm/tree/main/LeetCode/Easy/0242-valid-anagram/) | Easy |
 | [1207-unique-number-of-occurrences](https://github.com/woojeans7/Algorithm/tree/main/LeetCode/Easy/1207-unique-number-of-occurrences/) | Easy |
 | [1657-determine-if-two-strings-are-close](https://github.com/woojeans7/Algorithm/tree/main/LeetCode/Medium/1657-determine-if-two-strings-are-close/) | Medium |
 | [1679-max-number-of-k-sum-pairs](https://github.com/woojeans7/Algorithm/tree/main/LeetCode/Medium/1679-max-number-of-k-sum-pairs/) | Medium |
@@ -231,6 +233,7 @@
 | [0049-group-anagrams](https://github.com/woojeans7/Algorithm/tree/main/LeetCode/Medium/0049-group-anagrams/) | Medium |
 | [0215-kth-largest-element-in-an-array](https://github.com/woojeans7/Algorithm/tree/main/LeetCode/Medium/0215-kth-largest-element-in-an-array/) | Medium |
 | [0217-contains-duplicate](https://github.com/woojeans7/Algorithm/tree/main/LeetCode/Easy/0217-contains-duplicate/) | Easy |
+| [0242-valid-anagram](https://github.com/woojeans7/Algorithm/tree/main/LeetCode/Easy/0242-valid-anagram/) | Easy |
 | [1051-height-checker](https://github.com/woojeans7/Algorithm/tree/main/LeetCode/Easy/1051-height-checker/) | Easy |
 | [1657-determine-if-two-strings-are-close](https://github.com/woojeans7/Algorithm/tree/main/LeetCode/Medium/1657-determine-if-two-strings-are-close/) | Medium |
 | [1679-max-number-of-k-sum-pairs](https://github.com/woojeans7/Algorithm/tree/main/LeetCode/Medium/1679-max-number-of-k-sum-pairs/) | Medium |
