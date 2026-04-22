@@ -101,6 +101,7 @@
 | [0334-increasing-triplet-subsequence](https://github.com/woojeans7/Algorithm/tree/main/LeetCode/Medium/0334-increasing-triplet-subsequence/) | Medium |
 | [0349-intersection-of-two-arrays](https://github.com/woojeans7/Algorithm/tree/main/LeetCode/Easy/0349-intersection-of-two-arrays/) | Easy |
 | [0399-evaluate-division](https://github.com/woojeans7/Algorithm/tree/main/LeetCode/Medium/0399-evaluate-division/) | Medium |
+| [0410-split-array-largest-sum](https://github.com/woojeans7/Algorithm/tree/main/LeetCode/Hard/0410-split-array-largest-sum/) | Hard |
 | [0560-subarray-sum-equals-k](https://github.com/woojeans7/Algorithm/tree/main/LeetCode/Medium/0560-subarray-sum-equals-k/) | Medium |
 | [0605-can-place-flowers](https://github.com/woojeans7/Algorithm/tree/main/LeetCode/Easy/0605-can-place-flowers/) | Easy |
 | [0643-maximum-average-subarray-i](https://github.com/woojeans7/Algorithm/tree/main/LeetCode/Easy/0643-maximum-average-subarray-i/) | Easy |
@@ -133,6 +134,7 @@
 | [0045-jump-game-ii](https://github.com/woojeans7/Algorithm/tree/main/LeetCode/Medium/0045-jump-game-ii/) | Medium |
 | [0055-jump-game](https://github.com/woojeans7/Algorithm/tree/main/LeetCode/Medium/0055-jump-game/) | Medium |
 | [0334-increasing-triplet-subsequence](https://github.com/woojeans7/Algorithm/tree/main/LeetCode/Medium/0334-increasing-triplet-subsequence/) | Medium |
+| [0410-split-array-largest-sum](https://github.com/woojeans7/Algorithm/tree/main/LeetCode/Hard/0410-split-array-largest-sum/) | Hard |
 | [0605-can-place-flowers](https://github.com/woojeans7/Algorithm/tree/main/LeetCode/Easy/0605-can-place-flowers/) | Easy |
 | [0649-dota2-senate](https://github.com/woojeans7/Algorithm/tree/main/LeetCode/Medium/0649-dota2-senate/) | Medium |
 | [0714-best-time-to-buy-and-sell-stock-with-transaction-fee](https://github.com/woojeans7/Algorithm/tree/main/LeetCode/Medium/0714-best-time-to-buy-and-sell-stock-with-transaction-fee/) | Medium |
@@ -141,6 +143,7 @@
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [0238-product-of-array-except-self](https://github.com/woojeans7/Algorithm/tree/main/LeetCode/Medium/0238-product-of-array-except-self/) | Medium |
+| [0410-split-array-largest-sum](https://github.com/woojeans7/Algorithm/tree/main/LeetCode/Hard/0410-split-array-largest-sum/) | Hard |
 | [0560-subarray-sum-equals-k](https://github.com/woojeans7/Algorithm/tree/main/LeetCode/Medium/0560-subarray-sum-equals-k/) | Medium |
 | [0724-find-pivot-index](https://github.com/woojeans7/Algorithm/tree/main/LeetCode/Easy/0724-find-pivot-index/) | Easy |
 | [1004-max-consecutive-ones-iii](https://github.com/woojeans7/Algorithm/tree/main/LeetCode/Medium/1004-max-consecutive-ones-iii/) | Medium |
@@ -168,6 +171,7 @@
 | [0322-coin-change](https://github.com/woojeans7/Algorithm/tree/main/LeetCode/Medium/0322-coin-change/) | Medium |
 | [0338-counting-bits](https://github.com/woojeans7/Algorithm/tree/main/LeetCode/Easy/0338-counting-bits/) | Easy |
 | [0392-is-subsequence](https://github.com/woojeans7/Algorithm/tree/main/LeetCode/Easy/0392-is-subsequence/) | Easy |
+| [0410-split-array-largest-sum](https://github.com/woojeans7/Algorithm/tree/main/LeetCode/Hard/0410-split-array-largest-sum/) | Hard |
 | [0714-best-time-to-buy-and-sell-stock-with-transaction-fee](https://github.com/woojeans7/Algorithm/tree/main/LeetCode/Medium/0714-best-time-to-buy-and-sell-stock-with-transaction-fee/) | Medium |
 | [0746-min-cost-climbing-stairs](https://github.com/woojeans7/Algorithm/tree/main/LeetCode/Easy/0746-min-cost-climbing-stairs/) | Easy |
 | [0790-domino-and-tromino-tiling](https://github.com/woojeans7/Algorithm/tree/main/LeetCode/Medium/0790-domino-and-tromino-tiling/) | Medium |
@@ -260,6 +264,7 @@
 | [0300-longest-increasing-subsequence](https://github.com/woojeans7/Algorithm/tree/main/LeetCode/Medium/0300-longest-increasing-subsequence/) | Medium |
 | [0349-intersection-of-two-arrays](https://github.com/woojeans7/Algorithm/tree/main/LeetCode/Easy/0349-intersection-of-two-arrays/) | Easy |
 | [0374-guess-number-higher-or-lower](https://github.com/woojeans7/Algorithm/tree/main/LeetCode/Easy/0374-guess-number-higher-or-lower/) | Easy |
+| [0410-split-array-largest-sum](https://github.com/woojeans7/Algorithm/tree/main/LeetCode/Hard/0410-split-array-largest-sum/) | Hard |
 | [0875-koko-eating-bananas](https://github.com/woojeans7/Algorithm/tree/main/LeetCode/Medium/0875-koko-eating-bananas/) | Medium |
 | [1004-max-consecutive-ones-iii](https://github.com/woojeans7/Algorithm/tree/main/LeetCode/Medium/1004-max-consecutive-ones-iii/) | Medium |
 | [2300-successful-pairs-of-spells-and-potions](https://github.com/woojeans7/Algorithm/tree/main/LeetCode/Medium/2300-successful-pairs-of-spells-and-potions/) | Medium |
