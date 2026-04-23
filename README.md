@@ -86,6 +86,7 @@
 | [0046-permutations](https://github.com/woojeans7/Algorithm/tree/main/LeetCode/Medium/0046-permutations/) | Medium |
 | [0049-group-anagrams](https://github.com/woojeans7/Algorithm/tree/main/LeetCode/Medium/0049-group-anagrams/) | Medium |
 | [0055-jump-game](https://github.com/woojeans7/Algorithm/tree/main/LeetCode/Medium/0055-jump-game/) | Medium |
+| [0078-subsets](https://github.com/woojeans7/Algorithm/tree/main/LeetCode/Medium/0078-subsets/) | Medium |
 | [0136-single-number](https://github.com/woojeans7/Algorithm/tree/main/LeetCode/Easy/0136-single-number/) | Easy |
 | [0137-single-number-ii](https://github.com/woojeans7/Algorithm/tree/main/LeetCode/Medium/0137-single-number-ii/) | Medium |
 | [0162-find-peak-element](https://github.com/woojeans7/Algorithm/tree/main/LeetCode/Medium/0162-find-peak-element/) | Medium |
@@ -406,10 +407,12 @@
 | [0017-letter-combinations-of-a-phone-number](https://github.com/woojeans7/Algorithm/tree/main/LeetCode/Medium/0017-letter-combinations-of-a-phone-number/) | Medium |
 | [0046-permutations](https://github.com/woojeans7/Algorithm/tree/main/LeetCode/Medium/0046-permutations/) | Medium |
 | [0077-combinations](https://github.com/woojeans7/Algorithm/tree/main/LeetCode/Medium/0077-combinations/) | Medium |
+| [0078-subsets](https://github.com/woojeans7/Algorithm/tree/main/LeetCode/Medium/0078-subsets/) | Medium |
 | [0216-combination-sum-iii](https://github.com/woojeans7/Algorithm/tree/main/LeetCode/Medium/0216-combination-sum-iii/) | Medium |
 ## Bit Manipulation
 | Problem Name | Difficulty |
 | ------- | ------- |
+| [0078-subsets](https://github.com/woojeans7/Algorithm/tree/main/LeetCode/Medium/0078-subsets/) | Medium |
 | [0136-single-number](https://github.com/woojeans7/Algorithm/tree/main/LeetCode/Easy/0136-single-number/) | Easy |
 | [0137-single-number-ii](https://github.com/woojeans7/Algorithm/tree/main/LeetCode/Medium/0137-single-number-ii/) | Medium |
 | [0338-counting-bits](https://github.com/woojeans7/Algorithm/tree/main/LeetCode/Easy/0338-counting-bits/) | Easy |
