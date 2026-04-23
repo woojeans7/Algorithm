@@ -120,6 +120,7 @@
 | [1207-unique-number-of-occurrences](https://github.com/woojeans7/Algorithm/tree/main/LeetCode/Easy/1207-unique-number-of-occurrences/) | Easy |
 | [1431-kids-with-the-greatest-number-of-candies](https://github.com/woojeans7/Algorithm/tree/main/LeetCode/Easy/1431-kids-with-the-greatest-number-of-candies/) | Easy |
 | [1493-longest-subarray-of-1s-after-deleting-one-element](https://github.com/woojeans7/Algorithm/tree/main/LeetCode/Medium/1493-longest-subarray-of-1s-after-deleting-one-element/) | Medium |
+| [1552-magnetic-force-between-two-balls](https://github.com/woojeans7/Algorithm/tree/main/LeetCode/Medium/1552-magnetic-force-between-two-balls/) | Medium |
 | [1679-max-number-of-k-sum-pairs](https://github.com/woojeans7/Algorithm/tree/main/LeetCode/Medium/1679-max-number-of-k-sum-pairs/) | Medium |
 | [1732-find-the-highest-altitude](https://github.com/woojeans7/Algorithm/tree/main/LeetCode/Easy/1732-find-the-highest-altitude/) | Easy |
 | [1823-find-the-winner-of-the-circular-game](https://github.com/woojeans7/Algorithm/tree/main/LeetCode/Medium/1823-find-the-winner-of-the-circular-game/) | Medium |
@@ -251,6 +252,7 @@
 | [0349-intersection-of-two-arrays](https://github.com/woojeans7/Algorithm/tree/main/LeetCode/Easy/0349-intersection-of-two-arrays/) | Easy |
 | [0435-non-overlapping-intervals](https://github.com/woojeans7/Algorithm/tree/main/LeetCode/Medium/0435-non-overlapping-intervals/) | Medium |
 | [1051-height-checker](https://github.com/woojeans7/Algorithm/tree/main/LeetCode/Easy/1051-height-checker/) | Easy |
+| [1552-magnetic-force-between-two-balls](https://github.com/woojeans7/Algorithm/tree/main/LeetCode/Medium/1552-magnetic-force-between-two-balls/) | Medium |
 | [1657-determine-if-two-strings-are-close](https://github.com/woojeans7/Algorithm/tree/main/LeetCode/Medium/1657-determine-if-two-strings-are-close/) | Medium |
 | [1679-max-number-of-k-sum-pairs](https://github.com/woojeans7/Algorithm/tree/main/LeetCode/Medium/1679-max-number-of-k-sum-pairs/) | Medium |
 | [2300-successful-pairs-of-spells-and-potions](https://github.com/woojeans7/Algorithm/tree/main/LeetCode/Medium/2300-successful-pairs-of-spells-and-potions/) | Medium |
@@ -272,6 +274,7 @@
 | [0410-split-array-largest-sum](https://github.com/woojeans7/Algorithm/tree/main/LeetCode/Hard/0410-split-array-largest-sum/) | Hard |
 | [0875-koko-eating-bananas](https://github.com/woojeans7/Algorithm/tree/main/LeetCode/Medium/0875-koko-eating-bananas/) | Medium |
 | [1004-max-consecutive-ones-iii](https://github.com/woojeans7/Algorithm/tree/main/LeetCode/Medium/1004-max-consecutive-ones-iii/) | Medium |
+| [1552-magnetic-force-between-two-balls](https://github.com/woojeans7/Algorithm/tree/main/LeetCode/Medium/1552-magnetic-force-between-two-balls/) | Medium |
 | [2300-successful-pairs-of-spells-and-potions](https://github.com/woojeans7/Algorithm/tree/main/LeetCode/Medium/2300-successful-pairs-of-spells-and-potions/) | Medium |
 ## Union-Find
 | Problem Name | Difficulty |
