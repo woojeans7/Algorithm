@@ -87,6 +87,7 @@
 | [0046-permutations](https://github.com/woojeans7/Algorithm/tree/main/LeetCode/Medium/0046-permutations/) | Medium |
 | [0049-group-anagrams](https://github.com/woojeans7/Algorithm/tree/main/LeetCode/Medium/0049-group-anagrams/) | Medium |
 | [0055-jump-game](https://github.com/woojeans7/Algorithm/tree/main/LeetCode/Medium/0055-jump-game/) | Medium |
+| [0064-minimum-path-sum](https://github.com/woojeans7/Algorithm/tree/main/LeetCode/Medium/0064-minimum-path-sum/) | Medium |
 | [0078-subsets](https://github.com/woojeans7/Algorithm/tree/main/LeetCode/Medium/0078-subsets/) | Medium |
 | [0136-single-number](https://github.com/woojeans7/Algorithm/tree/main/LeetCode/Easy/0136-single-number/) | Easy |
 | [0137-single-number-ii](https://github.com/woojeans7/Algorithm/tree/main/LeetCode/Medium/0137-single-number-ii/) | Medium |
@@ -169,6 +170,7 @@
 | [0045-jump-game-ii](https://github.com/woojeans7/Algorithm/tree/main/LeetCode/Medium/0045-jump-game-ii/) | Medium |
 | [0055-jump-game](https://github.com/woojeans7/Algorithm/tree/main/LeetCode/Medium/0055-jump-game/) | Medium |
 | [0062-unique-paths](https://github.com/woojeans7/Algorithm/tree/main/LeetCode/Medium/0062-unique-paths/) | Medium |
+| [0064-minimum-path-sum](https://github.com/woojeans7/Algorithm/tree/main/LeetCode/Medium/0064-minimum-path-sum/) | Medium |
 | [0070-climbing-stairs](https://github.com/woojeans7/Algorithm/tree/main/LeetCode/Easy/0070-climbing-stairs/) | Easy |
 | [0072-edit-distance](https://github.com/woojeans7/Algorithm/tree/main/LeetCode/Medium/0072-edit-distance/) | Medium |
 | [0198-house-robber](https://github.com/woojeans7/Algorithm/tree/main/LeetCode/Medium/0198-house-robber/) | Medium |
@@ -289,6 +291,7 @@
 ## Matrix
 | Problem Name | Difficulty |
 | ------- | ------- |
+| [0064-minimum-path-sum](https://github.com/woojeans7/Algorithm/tree/main/LeetCode/Medium/0064-minimum-path-sum/) | Medium |
 | [0200-number-of-islands](https://github.com/woojeans7/Algorithm/tree/main/LeetCode/Medium/0200-number-of-islands/) | Medium |
 | [0994-rotting-oranges](https://github.com/woojeans7/Algorithm/tree/main/LeetCode/Medium/0994-rotting-oranges/) | Medium |
 | [1091-shortest-path-in-binary-matrix](https://github.com/woojeans7/Algorithm/tree/main/LeetCode/Medium/1091-shortest-path-in-binary-matrix/) | Medium |
