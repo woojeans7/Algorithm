@@ -43,6 +43,7 @@
 | [0349-intersection-of-two-arrays](https://github.com/woojeans7/Algorithm/tree/main/LeetCode/Easy/0349-intersection-of-two-arrays/) | Easy |
 | [0392-is-subsequence](https://github.com/woojeans7/Algorithm/tree/main/LeetCode/Easy/0392-is-subsequence/) | Easy |
 | [0443-string-compression](https://github.com/woojeans7/Algorithm/tree/main/LeetCode/Medium/0443-string-compression/) | Medium |
+| [0881-boats-to-save-people](https://github.com/woojeans7/Algorithm/tree/main/LeetCode/Medium/0881-boats-to-save-people/) | Medium |
 | [1679-max-number-of-k-sum-pairs](https://github.com/woojeans7/Algorithm/tree/main/LeetCode/Medium/1679-max-number-of-k-sum-pairs/) | Medium |
 | [1768-merge-strings-alternately](https://github.com/woojeans7/Algorithm/tree/main/LeetCode/Easy/1768-merge-strings-alternately/) | Easy |
 | [2095-delete-the-middle-node-of-a-linked-list](https://github.com/woojeans7/Algorithm/tree/main/LeetCode/Medium/2095-delete-the-middle-node-of-a-linked-list/) | Medium |
@@ -116,6 +117,7 @@
 | [0739-daily-temperatures](https://github.com/woojeans7/Algorithm/tree/main/LeetCode/Medium/0739-daily-temperatures/) | Medium |
 | [0746-min-cost-climbing-stairs](https://github.com/woojeans7/Algorithm/tree/main/LeetCode/Easy/0746-min-cost-climbing-stairs/) | Easy |
 | [0875-koko-eating-bananas](https://github.com/woojeans7/Algorithm/tree/main/LeetCode/Medium/0875-koko-eating-bananas/) | Medium |
+| [0881-boats-to-save-people](https://github.com/woojeans7/Algorithm/tree/main/LeetCode/Medium/0881-boats-to-save-people/) | Medium |
 | [0994-rotting-oranges](https://github.com/woojeans7/Algorithm/tree/main/LeetCode/Medium/0994-rotting-oranges/) | Medium |
 | [1004-max-consecutive-ones-iii](https://github.com/woojeans7/Algorithm/tree/main/LeetCode/Medium/1004-max-consecutive-ones-iii/) | Medium |
 | [1051-height-checker](https://github.com/woojeans7/Algorithm/tree/main/LeetCode/Easy/1051-height-checker/) | Easy |
@@ -145,6 +147,7 @@
 | [0605-can-place-flowers](https://github.com/woojeans7/Algorithm/tree/main/LeetCode/Easy/0605-can-place-flowers/) | Easy |
 | [0649-dota2-senate](https://github.com/woojeans7/Algorithm/tree/main/LeetCode/Medium/0649-dota2-senate/) | Medium |
 | [0714-best-time-to-buy-and-sell-stock-with-transaction-fee](https://github.com/woojeans7/Algorithm/tree/main/LeetCode/Medium/0714-best-time-to-buy-and-sell-stock-with-transaction-fee/) | Medium |
+| [0881-boats-to-save-people](https://github.com/woojeans7/Algorithm/tree/main/LeetCode/Medium/0881-boats-to-save-people/) | Medium |
 | [2542-maximum-subsequence-score](https://github.com/woojeans7/Algorithm/tree/main/LeetCode/Medium/2542-maximum-subsequence-score/) | Medium |
 ## Prefix Sum
 | Problem Name | Difficulty |
@@ -257,6 +260,7 @@
 | [0242-valid-anagram](https://github.com/woojeans7/Algorithm/tree/main/LeetCode/Easy/0242-valid-anagram/) | Easy |
 | [0349-intersection-of-two-arrays](https://github.com/woojeans7/Algorithm/tree/main/LeetCode/Easy/0349-intersection-of-two-arrays/) | Easy |
 | [0435-non-overlapping-intervals](https://github.com/woojeans7/Algorithm/tree/main/LeetCode/Medium/0435-non-overlapping-intervals/) | Medium |
+| [0881-boats-to-save-people](https://github.com/woojeans7/Algorithm/tree/main/LeetCode/Medium/0881-boats-to-save-people/) | Medium |
 | [1051-height-checker](https://github.com/woojeans7/Algorithm/tree/main/LeetCode/Easy/1051-height-checker/) | Easy |
 | [1552-magnetic-force-between-two-balls](https://github.com/woojeans7/Algorithm/tree/main/LeetCode/Medium/1552-magnetic-force-between-two-balls/) | Medium |
 | [1657-determine-if-two-strings-are-close](https://github.com/woojeans7/Algorithm/tree/main/LeetCode/Medium/1657-determine-if-two-strings-are-close/) | Medium |
