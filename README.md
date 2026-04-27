@@ -93,6 +93,7 @@
 | [0136-single-number](https://github.com/woojeans7/Algorithm/tree/main/LeetCode/Easy/0136-single-number/) | Easy |
 | [0137-single-number-ii](https://github.com/woojeans7/Algorithm/tree/main/LeetCode/Medium/0137-single-number-ii/) | Medium |
 | [0162-find-peak-element](https://github.com/woojeans7/Algorithm/tree/main/LeetCode/Medium/0162-find-peak-element/) | Medium |
+| [0169-majority-element](https://github.com/woojeans7/Algorithm/tree/main/LeetCode/Easy/0169-majority-element/) | Easy |
 | [0198-house-robber](https://github.com/woojeans7/Algorithm/tree/main/LeetCode/Medium/0198-house-robber/) | Medium |
 | [0200-number-of-islands](https://github.com/woojeans7/Algorithm/tree/main/LeetCode/Medium/0200-number-of-islands/) | Medium |
 | [0215-kth-largest-element-in-an-array](https://github.com/woojeans7/Algorithm/tree/main/LeetCode/Medium/0215-kth-largest-element-in-an-array/) | Medium |
@@ -243,6 +244,7 @@
 | ------- | ------- |
 | [0017-letter-combinations-of-a-phone-number](https://github.com/woojeans7/Algorithm/tree/main/LeetCode/Medium/0017-letter-combinations-of-a-phone-number/) | Medium |
 | [0049-group-anagrams](https://github.com/woojeans7/Algorithm/tree/main/LeetCode/Medium/0049-group-anagrams/) | Medium |
+| [0169-majority-element](https://github.com/woojeans7/Algorithm/tree/main/LeetCode/Easy/0169-majority-element/) | Easy |
 | [0217-contains-duplicate](https://github.com/woojeans7/Algorithm/tree/main/LeetCode/Easy/0217-contains-duplicate/) | Easy |
 | [0242-valid-anagram](https://github.com/woojeans7/Algorithm/tree/main/LeetCode/Easy/0242-valid-anagram/) | Easy |
 | [0349-intersection-of-two-arrays](https://github.com/woojeans7/Algorithm/tree/main/LeetCode/Easy/0349-intersection-of-two-arrays/) | Easy |
@@ -258,6 +260,7 @@
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [0049-group-anagrams](https://github.com/woojeans7/Algorithm/tree/main/LeetCode/Medium/0049-group-anagrams/) | Medium |
+| [0169-majority-element](https://github.com/woojeans7/Algorithm/tree/main/LeetCode/Easy/0169-majority-element/) | Easy |
 | [0215-kth-largest-element-in-an-array](https://github.com/woojeans7/Algorithm/tree/main/LeetCode/Medium/0215-kth-largest-element-in-an-array/) | Medium |
 | [0217-contains-duplicate](https://github.com/woojeans7/Algorithm/tree/main/LeetCode/Easy/0217-contains-duplicate/) | Easy |
 | [0242-valid-anagram](https://github.com/woojeans7/Algorithm/tree/main/LeetCode/Easy/0242-valid-anagram/) | Easy |
@@ -317,6 +320,7 @@
 ## Counting
 | Problem Name | Difficulty |
 | ------- | ------- |
+| [0169-majority-element](https://github.com/woojeans7/Algorithm/tree/main/LeetCode/Easy/0169-majority-element/) | Easy |
 | [1657-determine-if-two-strings-are-close](https://github.com/woojeans7/Algorithm/tree/main/LeetCode/Medium/1657-determine-if-two-strings-are-close/) | Medium |
 ## Recursion
 | Problem Name | Difficulty |
@@ -399,6 +403,7 @@
 ## Divide and Conquer
 | Problem Name | Difficulty |
 | ------- | ------- |
+| [0169-majority-element](https://github.com/woojeans7/Algorithm/tree/main/LeetCode/Easy/0169-majority-element/) | Easy |
 | [0215-kth-largest-element-in-an-array](https://github.com/woojeans7/Algorithm/tree/main/LeetCode/Medium/0215-kth-largest-element-in-an-array/) | Medium |
 ## Heap (Priority Queue)
 | Problem Name | Difficulty |
