@@ -68,6 +68,7 @@
 | [0649-dota2-senate](https://github.com/woojeans7/Algorithm/tree/main/LeetCode/Medium/0649-dota2-senate/) | Medium |
 | [1071-greatest-common-divisor-of-strings](https://github.com/woojeans7/Algorithm/tree/main/LeetCode/Easy/1071-greatest-common-divisor-of-strings/) | Easy |
 | [1143-longest-common-subsequence](https://github.com/woojeans7/Algorithm/tree/main/LeetCode/Medium/1143-longest-common-subsequence/) | Medium |
+| [1190-reverse-substrings-between-each-pair-of-parentheses](https://github.com/woojeans7/Algorithm/tree/main/LeetCode/Medium/1190-reverse-substrings-between-each-pair-of-parentheses/) | Medium |
 | [1456-maximum-number-of-vowels-in-a-substring-of-given-length](https://github.com/woojeans7/Algorithm/tree/main/LeetCode/Medium/1456-maximum-number-of-vowels-in-a-substring-of-given-length/) | Medium |
 | [1657-determine-if-two-strings-are-close](https://github.com/woojeans7/Algorithm/tree/main/LeetCode/Medium/1657-determine-if-two-strings-are-close/) | Medium |
 | [1768-merge-strings-alternately](https://github.com/woojeans7/Algorithm/tree/main/LeetCode/Easy/1768-merge-strings-alternately/) | Easy |
@@ -167,6 +168,7 @@
 | [0394-decode-string](https://github.com/woojeans7/Algorithm/tree/main/LeetCode/Medium/0394-decode-string/) | Medium |
 | [0735-asteroid-collision](https://github.com/woojeans7/Algorithm/tree/main/LeetCode/Medium/0735-asteroid-collision/) | Medium |
 | [0739-daily-temperatures](https://github.com/woojeans7/Algorithm/tree/main/LeetCode/Medium/0739-daily-temperatures/) | Medium |
+| [1190-reverse-substrings-between-each-pair-of-parentheses](https://github.com/woojeans7/Algorithm/tree/main/LeetCode/Medium/1190-reverse-substrings-between-each-pair-of-parentheses/) | Medium |
 | [2130-maximum-twin-sum-of-a-linked-list](https://github.com/woojeans7/Algorithm/tree/main/LeetCode/Medium/2130-maximum-twin-sum-of-a-linked-list/) | Medium |
 | [2390-removing-stars-from-a-string](https://github.com/woojeans7/Algorithm/tree/main/LeetCode/Medium/2390-removing-stars-from-a-string/) | Medium |
 ## Dynamic Programming
