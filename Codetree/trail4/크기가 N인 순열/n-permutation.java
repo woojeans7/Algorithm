@@ -12,6 +12,7 @@ public class Main {
                 System.out.print(num + " ");
             }
             System.out.println();
+            return;
         }
 
         for(int i = 1; i <= n; i++){
