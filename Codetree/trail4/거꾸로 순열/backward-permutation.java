@@ -1,0 +1,39 @@
+import java.io.*;
+import java.util.*;
+
+public class Main {
+    StringBuilder sb = new StringBuilder();
+    public void solution(int n) {
+        boolean[] visited = new boolean[n+1];
+        permutation(n, visited, new ArrayList<>());
+        System.out.println(sb);
+    }
+    private void permutation(int n, boolean[] visited, List<Integer> cur){
+        if(cur.size() == n){
+            for(int num : cur){
+                sb.append(num).append(" ");
+            }
+            sb.append("\n");
+            return;
+        }
+
+        for(int i = n; i >= 1; i--){
+            if(!visited[i]){
+                visited[i] = true;
+                cur.add(i);
+                permutation(n, visited, cur);
+                visited[i] = false;
+                cur.remove(cur.size()-1);
+            }
+        }
+    }
+
+    public static void main(String[] args) throws IOException {
+        BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
+        StringTokenizer st = new StringTokenizer(br.readLine());
+        int N = Integer.parseInt(st.nextToken());
+
+        Main main = new Main();
+        main.solution(N);
+    }
+}
