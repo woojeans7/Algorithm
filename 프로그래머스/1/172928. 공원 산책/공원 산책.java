@@ -1,13 +1,9 @@
 import java.util.*;
 
 class Solution {
-    int[] dr = {-1, 1, 0, 0};
-    int[] dc = {0, 0, -1, 1};
-
-    Map<Character, Integer> map = new HashMap<>();
-
     public int[] solution(String[] park, String[] routes) {
-        int[] answer = {};
+
+        Map<Character, Integer> map = new HashMap<>();
         map.put('N', 0);
         map.put('S', 1);
         map.put('W', 2);
@@ -31,6 +27,9 @@ class Solution {
                 }
             }
         }
+
+        int[] dr = {-1, 1, 0, 0};
+        int[] dc = {0, 0, -1, 1};
 
         // 명령만큼
         for(String c : routes){
@@ -63,5 +62,17 @@ class Solution {
 
 
         return new int[]{si,sj};
+    }
+
+    public static void main(String[] args){
+
+        Solution main = new Solution();
+        int[] tc1 = main.solution(new String[]{"SOO","OOO","OOO"}, new String[]{"E 2","S 2","W 1"});
+        int[] tc2 = main.solution(new String[]{"SOO","OXX","OOO"}, new String[]{"E 2","S 2","W 1"});
+        int[] tc3 = main.solution(new String[]{"OSO","OOO","OXO","OOO"}, new String[]{"E 2","S 3","W 1"});
+
+        System.out.println(Arrays.toString(tc1));
+        System.out.println(Arrays.toString(tc2));
+        System.out.println(Arrays.toString(tc3));
     }
 }
