@@ -19,35 +19,31 @@ public class Main {
     }
     private int lowerBound(int[] nums, int target) {
         int left = 0;
-        int right = nums.length - 1;
-        int midIdx = nums.length;
+        int right = nums.length;
 
-        while (left <= right) {
-            int mid =(left + right) / 2;
+        while (left < right) {
+            int mid = left + (right - left) / 2;
             if (nums[mid] >= target) {
-                right = mid - 1;
-                midIdx = Math.min(midIdx, mid);
+                right = mid;
             }
             else left = mid + 1;
         }
 
-        return midIdx;
+        return left;
     }
     private int upperBound(int[] nums, int target) {
         int left = 0;
-        int right = nums.length - 1;
-        int midIdx = nums.length;
+        int right = nums.length;
 
-        while (left <= right) {
-            int mid =(left + right) / 2;
+        while (left < right) {
+            int mid = left + (right - left) / 2;
             if (nums[mid] > target) {
-                right = mid - 1;
-                midIdx = Math.min(midIdx, mid);
+                right = mid;
             }
             else left = mid + 1;
         }
 
-        return midIdx;
+        return left;
     }
 
     public static void main(String[] args) throws IOException {
