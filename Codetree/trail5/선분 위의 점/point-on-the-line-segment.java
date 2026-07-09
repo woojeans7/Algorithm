@@ -4,8 +4,6 @@ import java.util.*;
 public class Main {
     public int solution(int[] nums, int[] line) {
         int answer = 0;
-
-        Arrays.sort(nums);
         answer = upperBound(nums, line[1]) - lowerBound(nums, line[0]);
 
         return answer;
@@ -45,7 +43,7 @@ public class Main {
         for(int i = 0; i < N; i++){
             A[i] = Integer.parseInt(st.nextToken());
         }
-
+        Arrays.sort(A);
         Main main = new Main();
         StringBuilder sb = new StringBuilder();
         for(int j = 0; j < M; j++){
