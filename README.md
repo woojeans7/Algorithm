@@ -92,6 +92,7 @@
 | [0046-permutations](https://github.com/woojeans7/Algorithm/tree/main/LeetCode/Medium/0046-permutations/) | Medium |
 | [0049-group-anagrams](https://github.com/woojeans7/Algorithm/tree/main/LeetCode/Medium/0049-group-anagrams/) | Medium |
 | [0055-jump-game](https://github.com/woojeans7/Algorithm/tree/main/LeetCode/Medium/0055-jump-game/) | Medium |
+| [0056-merge-intervals](https://github.com/woojeans7/Algorithm/tree/main/LeetCode/Medium/0056-merge-intervals/) | Medium |
 | [0064-minimum-path-sum](https://github.com/woojeans7/Algorithm/tree/main/LeetCode/Medium/0064-minimum-path-sum/) | Medium |
 | [0078-subsets](https://github.com/woojeans7/Algorithm/tree/main/LeetCode/Medium/0078-subsets/) | Medium |
 | [0136-single-number](https://github.com/woojeans7/Algorithm/tree/main/LeetCode/Easy/0136-single-number/) | Easy |
@@ -271,6 +272,7 @@
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [0049-group-anagrams](https://github.com/woojeans7/Algorithm/tree/main/LeetCode/Medium/0049-group-anagrams/) | Medium |
+| [0056-merge-intervals](https://github.com/woojeans7/Algorithm/tree/main/LeetCode/Medium/0056-merge-intervals/) | Medium |
 | [0169-majority-element](https://github.com/woojeans7/Algorithm/tree/main/LeetCode/Easy/0169-majority-element/) | Easy |
 | [0179-largest-number](https://github.com/woojeans7/Algorithm/tree/main/LeetCode/Medium/0179-largest-number/) | Medium |
 | [0215-kth-largest-element-in-an-array](https://github.com/woojeans7/Algorithm/tree/main/LeetCode/Medium/0215-kth-largest-element-in-an-array/) | Medium |
