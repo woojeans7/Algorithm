@@ -1,60 +1,37 @@
 import java.util.*;
 
-class Solution {
+public class Solution {
+    int answer;
+    int n;
     public int solution(int n, int[][] wires) {
-    int min = Integer.MAX_VALUE; // 최소값 초기화
-    int diff = 0; // 차이를 저장
+        answer = n;
+        this.n = n;
 
-    // 인접 리스트 초기화
-    List<List<Integer>> tree = new ArrayList<>();
-    for (int i = 0; i <= n; i++) {
-        tree.add(new ArrayList<>());
-    }
+        List<List<Integer>> graph = new ArrayList<>();
 
-    // 간선 추가
-    for (int[] wire : wires) {
-        int a = wire[0];
-        int b = wire[1];
-        tree.get(a).add(b); // a -> b 연결
-        tree.get(b).add(a); // b -> a 연결
-    }
-
-    for (int[] wire : wires) {
-        int a = wire[0];
-        int b = wire[1];
-
-        // 연결 끊기
-        tree.get(a).remove((Integer) b); // 객체로 반환
-        tree.get(b).remove((Integer) a);
-
-        // 두 그룹의 개수 비교
-        boolean[] visited = new boolean[n + 1];
-        int group1 = dfs(tree, visited, a);
-
-        visited = new boolean[n + 1]; // 방문배열 초기화
-        int group2 = dfs(tree, visited, b);
-
-				diff = Math.abs(group1 - group2);
-        min = Math.min(min, diff);
-
-        // 다시 연결
-        tree.get(a).add(b);
-        tree.get(b).add(a);
-    }
-
-    return min;
-	}
-    
-    public static int dfs(List<List<Integer>> tree, boolean[] visited, int curVertex) {
-    visited[curVertex] = true;
-    int count = 1; // 노드 개수
-
-    for (int nextVertex : tree.get(curVertex)) {
-        if (!visited[nextVertex]) {
-            count += dfs(tree, visited, nextVertex);
+        for(int i = 0; i <= n; i++){
+            graph.add(new ArrayList<>());
         }
-    }
+        for(int[] wire : wires){
+            graph.get(wire[0]).add(wire[1]);
+            graph.get(wire[1]).add(wire[0]);
+        }
 
-    return count;
-	}
+        boolean[] visited = new boolean[n + 1];
+        dfs(1, visited, graph);
+
+        return answer;
+    }
+    private int dfs(int cur, boolean[] visited, List<List<Integer>> graph){
+        visited[cur] = true;
+        int sum = 1;
+        for(int next : graph.get(cur)){
+            if(!visited[next]){
+                int count = dfs(next, visited, graph);
+                answer = Math.min(answer, Math.abs(n - count * 2));
+                sum += count;
+            }
+        }
+        return sum;
+    }
 }
