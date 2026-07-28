@@ -4,15 +4,14 @@ class Solution {
     public int solution(int[] priorities, int location) {
     
         int n = priorities.length;
-        
+    
         Queue<int[]> queue = new ArrayDeque<>();
         
         for(int i = 0; i < n; i++){
             queue.offer(new int[]{i, priorities[i]});
         }
-        
-        int[] reverse = priorities.clone();
-        reverse = Arrays.stream(reverse)
+    
+        priorities = Arrays.stream(priorities)
             .boxed()
             .sorted(Collections.reverseOrder())
             .mapToInt(Integer::intValue)
@@ -23,7 +22,7 @@ class Solution {
         while(!queue.isEmpty()){
             int[] cur = queue.poll();
             
-            if(cur[1] == reverse[idx]){
+            if(cur[1] == priorities[idx]){
                 count++;
                 if(cur[0] == location) return count;
                 idx++;
