@@ -3,31 +3,22 @@ import java.util.*;
 class Solution {
     public int solution(int[] scoville, int K) {
         PriorityQueue<Integer> pq = new PriorityQueue<>();
-        for(int s : scoville) {
+        for (int s : scoville) {
             pq.offer(s);
         }
 
         int answer = 0;
 
-        // 모든 음식의 스코빌 지수가 K이상이 될때까지 반복
-        // 즉, 첫 번째 지수가 K보다 클 때까지
-        while(!pq.isEmpty() && pq.size() > 1 && pq.peek() < K) {
-            // 2개를 무조건 뽑고 새로운 스코빌 지수 계산
+        // 가장 작은 값이 K 미만이고, 섞을 수 있는 음식(2개 이상)이 남아있을 때 반복
+        while (pq.peek() < K && pq.size() > 1) {
             int first = pq.poll();
             int second = pq.poll();
-            int newNum = newScoville(first, second);
-
-             //큐에 넣기
-            pq.offer(newNum);
+            
+            pq.offer(first + second * 2);
             answer++;
-
         }
-        
-        if(pq.peek() < K) return -1;
-        
-        return answer;
-    }
-    private int newScoville(int first, int second) {
-        return first + second * 2;
+
+        // 루프 종료 후 가장 작은 값이 K 이상인지 확인
+        return pq.peek() >= K ? answer : -1;
     }
 }
