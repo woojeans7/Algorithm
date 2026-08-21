@@ -8,7 +8,6 @@ class Solution {
         
         for(int i = 0; i < n; i++){
             while(!stack.isEmpty()){
-                // 이전 가격이 현재 가격보다 크면 떨어진 것
                 if(prices[stack.peek()] > prices[i]){
                     int prev = stack.pop();
                     answer[prev] = i - prev;
