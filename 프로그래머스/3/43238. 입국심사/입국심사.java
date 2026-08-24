@@ -1,38 +1,23 @@
-import java.util.*;
-
+import java.util.Arrays;
 class Solution {
     public long solution(int n, int[] times) {
+        long answer = 0;
         Arrays.sort(times);
-        return binarySearch(times, n, times[times.length - 1]);
-    }
-    private long binarySearch(int[] times, int n, long max){
-        long left = 1, right = max * n;
-        long mid = 0;
-        long ans = Long.MAX_VALUE;
+        long left = 0;
+        long right = times[times.length-1] * (long)n; //모든 사람이 가장 느리게 심사받음
         
-        while(left <= right){
-            mid = (left + right) / 2;
-            
-            if(isPassed(times, n, mid)){
-                ans = ans > mid ? mid : ans;
+        while(left <= right) {
+            long mid = (left + right) / 2;
+            long complete = 0;
+            for (int i = 0; i < times.length; i++)
+                complete += mid / times[i];
+            if (complete < n) // 해당 시간에는 모든 사람이 검사받을 수 없다.
+                left = mid + 1;
+            else {
                 right = mid - 1;
+                answer = mid; // 모두 검사받았으나, 더 최솟값이 있을 수 있다.
             }
-            else{
-                left = mid + 1;   
-            }
-        }
-        
-        return ans;
-        
-    }
-    private boolean isPassed(int[] times, int n, long mid){
-        long amount = 0;
-        
-        for(int i = 0; i < times.length; i++){
-            amount += mid / times[i];
-        }
-        if(amount >= n) return true;
-        
-        return false;
+        }  
+        return answer;
     }
 }
