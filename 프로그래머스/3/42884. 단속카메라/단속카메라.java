@@ -6,7 +6,7 @@ class Solution {
         Arrays.sort(routes, (a, b) -> a[1] - b[1]);
 
         int lastCamera = -30001;
-        int count = 0;
+        int answer = 0;
 
         for(int[] route : routes){
             int in = route[0];
@@ -14,10 +14,10 @@ class Solution {
 
             if(in > lastCamera){
                 lastCamera = out;
-                count++;
+                answer++;
             }
         }
 
-        return count;
+        return answer;
     }
 }
