@@ -1,35 +1,19 @@
-import java.util.*;
-
 class Solution {
     public String solution(String number, int k) {
-
-        Stack<Character> stack = new Stack<>();
-        int removed = 0;
-
+        StringBuilder sb = new StringBuilder();
+        
         for (int i = 0; i < number.length(); i++) {
             char cur = number.charAt(i);
-
-            // 스택 top보다 현재 숫자가 크면 → top 제거
-            while (!stack.isEmpty() && removed < k
-                    && stack.peek() < cur) {
-                stack.pop();
-                removed++;
+            
+            // while문으로 앞의 더 작은 수들을 연속해서 제거
+            while (sb.length() > 0 && cur > sb.charAt(sb.length() - 1) && k > 0) {
+                sb.deleteCharAt(sb.length() - 1);
+                k--;
             }
-
-            stack.push(cur);
+            sb.append(cur);
         }
-
-        // 아직 덜 제거했으면 뒤에서 제거
-        while (removed < k) {
-            stack.pop();
-            removed++;
-        }
-
-        StringBuilder sb = new StringBuilder();
-        for (char c : stack) {
-            sb.append(c);
-        }
-
-        return sb.toString();
+        
+        // k가 여전히 남아있는 경우 뒤에서부터 k개 잘라내기
+        return sb.substring(0, sb.length() - k);
     }
 }
