@@ -1,53 +1,47 @@
 import java.util.*;
 
-public class Solution {
-    static int maxSheep = 0;
-
+class Solution {
+    int answer = 0;
     public int solution(int[] info, int[][] edges) {
-        // 1. 트리를 Map으로 구성
-        Map<Integer, List<Integer>> tree = new HashMap<>();
-
-        for (int[] edge : edges) {
-            int parent = edge[0];
-            int child = edge[1];
-            
-            tree.putIfAbsent(parent, new ArrayList<>());
-            tree.get(parent).add(child);
+        // 루트에서 출발해서 양을 모으려고 함
+        // 늑대도 있음. 양의 마리 수 <= 늑대의 수라면 잡아먹힘
+        // 최대한 많은 양을 모으는게 목표
+        int n = info.length;
+        List<List<Integer>> graph = new ArrayList<>();
+        for(int i = 0; i <= n; i++){
+            graph.add(new ArrayList<>());
         }
 
-        // 2. 탐색 시작
-        List<Integer> nexts = new ArrayList<>();
-        nexts.add(0);
-        
-        dfs(0, 0, 0, info, tree, nexts);
+        for(int[] edge : edges){
+            graph.get(edge[0]).add(edge[1]);
+        }
 
-        return maxSheep;
+        List<Integer> newNext = new ArrayList<>();
+        newNext.add(info[0]);
+
+        dfs(0, 0, 0, graph, info, newNext);
+
+        return answer;
     }
+    private void dfs(int cur, int sheep, int wolf, List<List<Integer>> graph, int[] info, List<Integer> newNext){
+        // 현재 노드가 양이면
+        if(info[cur] == 0) sheep += 1;
+        else wolf += 1;
 
-    public void dfs(int cur, int sheep, int wolf, int[] info,
-                    Map<Integer, List<Integer>> tree, List<Integer> nexts) {
+        // 양, 늑대의 조건에 따라 종료
+        if(sheep <= wolf) return;
 
-        // 현재 노드가 양인지 늑대인지 확인
-        if (info[cur] == 0) sheep++;
-        else wolf++;
+        // 최대 양의 수
+        answer = Math.max(answer, sheep);
 
-        // 조건 위반 시 종료
-        if (wolf >= sheep) return;
-
-        // 최대 양 수 갱신
-        maxSheep = Math.max(maxSheep, sheep);
-
-        // 다음 탐색 후보 구성
-        List<Integer> newNexts = new ArrayList<>(nexts);
-        newNexts.remove(Integer.valueOf(cur)); // 현재 방문 노드 제거
-
-        if (tree.containsKey(cur)) {
-            newNexts.addAll(tree.get(cur)); // 자식 노드 추가
+        // 현재 노드를 탐색에서 제외
+        newNext.remove(Integer.valueOf(cur));
+        for(int next : graph.get(cur)){
+            newNext.add(next);
         }
 
-        // 다음 후보 노드들에 대해 DFS
-        for (int next : newNexts) {
-            dfs(next, sheep, wolf, info, tree, new ArrayList<>(newNexts));
+        for(int next : newNext){
+            dfs(next, sheep, wolf, graph, info, new ArrayList<>(newNext));
         }
     }
 }
