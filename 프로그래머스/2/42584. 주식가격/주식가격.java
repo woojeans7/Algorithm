@@ -4,6 +4,7 @@ class Solution {
     public int[] solution(int[] prices) {
         int n = prices.length;
         int[] answer = new int[n];
+        
         Deque<Integer> stack = new ArrayDeque<>();
         
         for(int i = 0; i < n; i++){
@@ -21,6 +22,7 @@ class Solution {
             int idx = stack.pop();
             answer[idx] = n - idx - 1;
         }
+        
         return answer;
     }
 }
