@@ -1,38 +1,38 @@
 import java.util.*;
 
 class Solution {
+    int[] parent;
     public int solution(int n, int[][] costs) {
         int answer = 0;
 
-        Arrays.sort(costs, Comparator.comparingInt(c -> c[2]));
+        parent = new int[n];
+        for(int i = 0; i < n; i++){
+            parent[i] = i;
+        }
 
-        int[] parent = new int[n];
-        for (int i = 0; i < n; i++) parent[i] = i;
+        Arrays.sort(costs, (a, b) -> a[2] - b[2]);
+        
+        int count = 0;
+        for(int[] c : costs){
+            int a = c[0];
+            int b = c[1];
+            int cost = c[2];
 
-        for(int[] cost : costs) {
-            int a = cost[0];
-            int b = cost[1];
-            int fee = cost[2];
+            if(find(a) == find(b)) continue;
 
-            // 루트가 다르면 → 연결 (사이클 없음)
-            if(find(parent, a) != find(parent, b)){
-                union(parent, a, b);
-                answer += fee;
-            }
-            // 루트가 같으면 → 스킵 (사이클 발생)
+            union(a, b);
+            answer += cost;
         }
 
         return answer;
     }
-    // 루트 찾기
-    private int find(int[] parent, int x){
-        if(parent[x] == x) return x;
-        return parent[x] = find(parent, parent[x]);
+    private int find(int v){
+        if(parent[v] == v) return v;
+        else return parent[v] = find(parent[v]);
     }
-    // 연결
-    private void union(int[] parent, int a, int b){
-        a = find(parent, a);
-        b = find(parent, b);
-        parent[a] = b;
+    private void union(int x, int y){
+        int rootX = find(x);
+        int rootY = find(y);
+        if(rootX != rootY) parent[rootX] = rootY;
     }
 }
