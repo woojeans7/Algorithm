@@ -98,6 +98,7 @@
 | [0064-minimum-path-sum](https://github.com/woojeans7/Algorithm/tree/main/LeetCode/Medium/0064-minimum-path-sum/) | Medium |
 | [0078-subsets](https://github.com/woojeans7/Algorithm/tree/main/LeetCode/Medium/0078-subsets/) | Medium |
 | [0121-best-time-to-buy-and-sell-stock](https://github.com/woojeans7/Algorithm/tree/main/LeetCode/Easy/0121-best-time-to-buy-and-sell-stock/) | Easy |
+| [0128-longest-consecutive-sequence](https://github.com/woojeans7/Algorithm/tree/main/LeetCode/Medium/0128-longest-consecutive-sequence/) | Medium |
 | [0136-single-number](https://github.com/woojeans7/Algorithm/tree/main/LeetCode/Easy/0136-single-number/) | Easy |
 | [0137-single-number-ii](https://github.com/woojeans7/Algorithm/tree/main/LeetCode/Medium/0137-single-number-ii/) | Medium |
 | [0162-find-peak-element](https://github.com/woojeans7/Algorithm/tree/main/LeetCode/Medium/0162-find-peak-element/) | Medium |
@@ -268,6 +269,7 @@
 | [0012-integer-to-roman](https://github.com/woojeans7/Algorithm/tree/main/LeetCode/Medium/0012-integer-to-roman/) | Medium |
 | [0017-letter-combinations-of-a-phone-number](https://github.com/woojeans7/Algorithm/tree/main/LeetCode/Medium/0017-letter-combinations-of-a-phone-number/) | Medium |
 | [0049-group-anagrams](https://github.com/woojeans7/Algorithm/tree/main/LeetCode/Medium/0049-group-anagrams/) | Medium |
+| [0128-longest-consecutive-sequence](https://github.com/woojeans7/Algorithm/tree/main/LeetCode/Medium/0128-longest-consecutive-sequence/) | Medium |
 | [0169-majority-element](https://github.com/woojeans7/Algorithm/tree/main/LeetCode/Easy/0169-majority-element/) | Easy |
 | [0217-contains-duplicate](https://github.com/woojeans7/Algorithm/tree/main/LeetCode/Easy/0217-contains-duplicate/) | Easy |
 | [0242-valid-anagram](https://github.com/woojeans7/Algorithm/tree/main/LeetCode/Easy/0242-valid-anagram/) | Easy |
@@ -324,6 +326,7 @@
 ## Union-Find
 | Problem Name | Difficulty |
 | ------- | ------- |
+| [0128-longest-consecutive-sequence](https://github.com/woojeans7/Algorithm/tree/main/LeetCode/Medium/0128-longest-consecutive-sequence/) | Medium |
 | [0200-number-of-islands](https://github.com/woojeans7/Algorithm/tree/main/LeetCode/Medium/0200-number-of-islands/) | Medium |
 | [0399-evaluate-division](https://github.com/woojeans7/Algorithm/tree/main/LeetCode/Medium/0399-evaluate-division/) | Medium |
 | [0547-number-of-provinces](https://github.com/woojeans7/Algorithm/tree/main/LeetCode/Medium/0547-number-of-provinces/) | Medium |
