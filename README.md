@@ -134,6 +134,7 @@
 | [1004-max-consecutive-ones-iii](https://github.com/woojeans7/Algorithm/tree/main/LeetCode/Medium/1004-max-consecutive-ones-iii/) | Medium |
 | [1051-height-checker](https://github.com/woojeans7/Algorithm/tree/main/LeetCode/Easy/1051-height-checker/) | Easy |
 | [1091-shortest-path-in-binary-matrix](https://github.com/woojeans7/Algorithm/tree/main/LeetCode/Medium/1091-shortest-path-in-binary-matrix/) | Medium |
+| [1162-as-far-from-land-as-possible](https://github.com/woojeans7/Algorithm/tree/main/LeetCode/Medium/1162-as-far-from-land-as-possible/) | Medium |
 | [1186-maximum-subarray-sum-with-one-deletion](https://github.com/woojeans7/Algorithm/tree/main/LeetCode/Medium/1186-maximum-subarray-sum-with-one-deletion/) | Medium |
 | [1207-unique-number-of-occurrences](https://github.com/woojeans7/Algorithm/tree/main/LeetCode/Easy/1207-unique-number-of-occurrences/) | Easy |
 | [1431-kids-with-the-greatest-number-of-candies](https://github.com/woojeans7/Algorithm/tree/main/LeetCode/Easy/1431-kids-with-the-greatest-number-of-candies/) | Easy |
@@ -208,6 +209,7 @@
 | [0790-domino-and-tromino-tiling](https://github.com/woojeans7/Algorithm/tree/main/LeetCode/Medium/0790-domino-and-tromino-tiling/) | Medium |
 | [1137-n-th-tribonacci-number](https://github.com/woojeans7/Algorithm/tree/main/LeetCode/Easy/1137-n-th-tribonacci-number/) | Easy |
 | [1143-longest-common-subsequence](https://github.com/woojeans7/Algorithm/tree/main/LeetCode/Medium/1143-longest-common-subsequence/) | Medium |
+| [1162-as-far-from-land-as-possible](https://github.com/woojeans7/Algorithm/tree/main/LeetCode/Medium/1162-as-far-from-land-as-possible/) | Medium |
 | [1186-maximum-subarray-sum-with-one-deletion](https://github.com/woojeans7/Algorithm/tree/main/LeetCode/Medium/1186-maximum-subarray-sum-with-one-deletion/) | Medium |
 | [1372-longest-zigzag-path-in-a-binary-tree](https://github.com/woojeans7/Algorithm/tree/main/LeetCode/Medium/1372-longest-zigzag-path-in-a-binary-tree/) | Medium |
 | [1493-longest-subarray-of-1s-after-deleting-one-element](https://github.com/woojeans7/Algorithm/tree/main/LeetCode/Medium/1493-longest-subarray-of-1s-after-deleting-one-element/) | Medium |
@@ -249,6 +251,7 @@
 | [0994-rotting-oranges](https://github.com/woojeans7/Algorithm/tree/main/LeetCode/Medium/0994-rotting-oranges/) | Medium |
 | [1091-shortest-path-in-binary-matrix](https://github.com/woojeans7/Algorithm/tree/main/LeetCode/Medium/1091-shortest-path-in-binary-matrix/) | Medium |
 | [1161-maximum-level-sum-of-a-binary-tree](https://github.com/woojeans7/Algorithm/tree/main/LeetCode/Medium/1161-maximum-level-sum-of-a-binary-tree/) | Medium |
+| [1162-as-far-from-land-as-possible](https://github.com/woojeans7/Algorithm/tree/main/LeetCode/Medium/1162-as-far-from-land-as-possible/) | Medium |
 | [1448-count-good-nodes-in-binary-tree](https://github.com/woojeans7/Algorithm/tree/main/LeetCode/Medium/1448-count-good-nodes-in-binary-tree/) | Medium |
 | [1466-reorder-routes-to-make-all-paths-lead-to-the-city-zero](https://github.com/woojeans7/Algorithm/tree/main/LeetCode/Medium/1466-reorder-routes-to-make-all-paths-lead-to-the-city-zero/) | Medium |
 | [1926-nearest-exit-from-entrance-in-maze](https://github.com/woojeans7/Algorithm/tree/main/LeetCode/Medium/1926-nearest-exit-from-entrance-in-maze/) | Medium |
@@ -341,6 +344,7 @@
 | [0200-number-of-islands](https://github.com/woojeans7/Algorithm/tree/main/LeetCode/Medium/0200-number-of-islands/) | Medium |
 | [0994-rotting-oranges](https://github.com/woojeans7/Algorithm/tree/main/LeetCode/Medium/0994-rotting-oranges/) | Medium |
 | [1091-shortest-path-in-binary-matrix](https://github.com/woojeans7/Algorithm/tree/main/LeetCode/Medium/1091-shortest-path-in-binary-matrix/) | Medium |
+| [1162-as-far-from-land-as-possible](https://github.com/woojeans7/Algorithm/tree/main/LeetCode/Medium/1162-as-far-from-land-as-possible/) | Medium |
 | [1926-nearest-exit-from-entrance-in-maze](https://github.com/woojeans7/Algorithm/tree/main/LeetCode/Medium/1926-nearest-exit-from-entrance-in-maze/) | Medium |
 | [2352-equal-row-and-column-pairs](https://github.com/woojeans7/Algorithm/tree/main/LeetCode/Medium/2352-equal-row-and-column-pairs/) | Medium |
 ## Simulation
