@@ -1,49 +1,60 @@
 class Solution {
     public int minimumEffortPath(int[][] heights) {
-        
+        // 2. 이분탐색 풀이
+        int answer = 0;
+
+        // 이분탐색
+        int low = 0;
+        int high = 1_000_000;
+
+        while(low <= high){
+            int mid = (low + high) / 2;
+
+            if(canReach(heights, mid)){
+                answer = mid;
+                high = mid - 1; // 더 짧은게 있는지 탐색
+            }
+            else{
+                low = mid + 1;
+            }
+        }
+
+        return answer;
+    }
+    // canDo 함수 (BFS)
+    private boolean canReach(int[][] heights, int maxDiff){
         int n = heights.length;
         int m = heights[0].length;
 
-        int[][] efforts = new int[n][m];
-        int INF = 1_000_000;
-        for(int[] e : efforts) Arrays.fill(e, INF);
+        Queue<int[]> queue = new ArrayDeque<>();
+        boolean[][] visited = new boolean[n][m];
 
-        Queue<int[]> pq = new PriorityQueue<>(Comparator.comparingInt(a -> a[2]));
+        queue.offer(new int[]{0, 0});
+        visited[0][0] = true;
 
-        pq.offer(new int[]{0, 0, 0});
-        efforts[0][0] = 0;
-
-        // 상, 하, 좌, 우
         int[] dr = {-1, 1, 0, 0};
         int[] dc = {0, 0, -1, 1};
 
-        while(!pq.isEmpty()){
-            int[] cur = pq.poll();
+        while(!queue.isEmpty()){
+            int[] cur = queue.poll();
 
             int row = cur[0];
             int col = cur[1];
-            int w = cur[2];
 
-            // lazy delete
-            if(efforts[row][col] < w) continue;
-
-            if(row == n-1 && col == m-1) return w;
+            if(row == n-1 && col == m-1) return true;
 
             for(int i = 0; i < 4; i++){
                 int nr = row + dr[i];
                 int nc = col + dc[i];
 
-                if(nr >= 0 && nr < n && nc >= 0 && nc < m){
-                    int ne = Math.max(w, Math.abs(heights[nr][nc] - heights[row][col]));
+                if(nr < 0 || nr >= n || nc < 0 || nc >= m || visited[nr][nc]) continue;
 
-                    if(ne < efforts[nr][nc]){
-                        pq.offer(new int[]{nr, nc, ne});
-                        efforts[nr][nc] = ne;
-                    }
-                }
+                // 절대값 차이가 임계보다 작을 경우에만 도달 가능함
+                if(Math.abs(heights[nr][nc] - heights[cur[0]][cur[1]]) > maxDiff) continue;
+                queue.offer(new int[]{nr, nc});
+                    visited[nr][nc] = true;
             }
         }
-
-        return 0;
+        return false;
     }
 }
