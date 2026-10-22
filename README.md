@@ -127,6 +127,7 @@
 | [0735-asteroid-collision](https://github.com/woojeans7/Algorithm/tree/main/LeetCode/Medium/0735-asteroid-collision/) | Medium |
 | [0739-daily-temperatures](https://github.com/woojeans7/Algorithm/tree/main/LeetCode/Medium/0739-daily-temperatures/) | Medium |
 | [0746-min-cost-climbing-stairs](https://github.com/woojeans7/Algorithm/tree/main/LeetCode/Easy/0746-min-cost-climbing-stairs/) | Easy |
+| [0778-swim-in-rising-water](https://github.com/woojeans7/Algorithm/tree/main/LeetCode/Hard/0778-swim-in-rising-water/) | Hard |
 | [0875-koko-eating-bananas](https://github.com/woojeans7/Algorithm/tree/main/LeetCode/Medium/0875-koko-eating-bananas/) | Medium |
 | [0881-boats-to-save-people](https://github.com/woojeans7/Algorithm/tree/main/LeetCode/Medium/0881-boats-to-save-people/) | Medium |
 | [0912-sort-an-array](https://github.com/woojeans7/Algorithm/tree/main/LeetCode/Medium/0912-sort-an-array/) | Medium |
@@ -227,6 +228,7 @@
 | [0437-path-sum-iii](https://github.com/woojeans7/Algorithm/tree/main/LeetCode/Medium/0437-path-sum-iii/) | Medium |
 | [0547-number-of-provinces](https://github.com/woojeans7/Algorithm/tree/main/LeetCode/Medium/0547-number-of-provinces/) | Medium |
 | [0743-network-delay-time](https://github.com/woojeans7/Algorithm/tree/main/LeetCode/Medium/0743-network-delay-time/) | Medium |
+| [0778-swim-in-rising-water](https://github.com/woojeans7/Algorithm/tree/main/LeetCode/Hard/0778-swim-in-rising-water/) | Hard |
 | [0785-is-graph-bipartite](https://github.com/woojeans7/Algorithm/tree/main/LeetCode/Medium/0785-is-graph-bipartite/) | Medium |
 | [0797-all-paths-from-source-to-target](https://github.com/woojeans7/Algorithm/tree/main/LeetCode/Medium/0797-all-paths-from-source-to-target/) | Medium |
 | [0841-keys-and-rooms](https://github.com/woojeans7/Algorithm/tree/main/LeetCode/Medium/0841-keys-and-rooms/) | Medium |
@@ -247,6 +249,7 @@
 | [0399-evaluate-division](https://github.com/woojeans7/Algorithm/tree/main/LeetCode/Medium/0399-evaluate-division/) | Medium |
 | [0547-number-of-provinces](https://github.com/woojeans7/Algorithm/tree/main/LeetCode/Medium/0547-number-of-provinces/) | Medium |
 | [0743-network-delay-time](https://github.com/woojeans7/Algorithm/tree/main/LeetCode/Medium/0743-network-delay-time/) | Medium |
+| [0778-swim-in-rising-water](https://github.com/woojeans7/Algorithm/tree/main/LeetCode/Hard/0778-swim-in-rising-water/) | Hard |
 | [0785-is-graph-bipartite](https://github.com/woojeans7/Algorithm/tree/main/LeetCode/Medium/0785-is-graph-bipartite/) | Medium |
 | [0797-all-paths-from-source-to-target](https://github.com/woojeans7/Algorithm/tree/main/LeetCode/Medium/0797-all-paths-from-source-to-target/) | Medium |
 | [0841-keys-and-rooms](https://github.com/woojeans7/Algorithm/tree/main/LeetCode/Medium/0841-keys-and-rooms/) | Medium |
@@ -327,6 +330,7 @@
 | [0349-intersection-of-two-arrays](https://github.com/woojeans7/Algorithm/tree/main/LeetCode/Easy/0349-intersection-of-two-arrays/) | Easy |
 | [0374-guess-number-higher-or-lower](https://github.com/woojeans7/Algorithm/tree/main/LeetCode/Easy/0374-guess-number-higher-or-lower/) | Easy |
 | [0410-split-array-largest-sum](https://github.com/woojeans7/Algorithm/tree/main/LeetCode/Hard/0410-split-array-largest-sum/) | Hard |
+| [0778-swim-in-rising-water](https://github.com/woojeans7/Algorithm/tree/main/LeetCode/Hard/0778-swim-in-rising-water/) | Hard |
 | [0875-koko-eating-bananas](https://github.com/woojeans7/Algorithm/tree/main/LeetCode/Medium/0875-koko-eating-bananas/) | Medium |
 | [1004-max-consecutive-ones-iii](https://github.com/woojeans7/Algorithm/tree/main/LeetCode/Medium/1004-max-consecutive-ones-iii/) | Medium |
 | [1552-magnetic-force-between-two-balls](https://github.com/woojeans7/Algorithm/tree/main/LeetCode/Medium/1552-magnetic-force-between-two-balls/) | Medium |
@@ -339,6 +343,7 @@
 | [0200-number-of-islands](https://github.com/woojeans7/Algorithm/tree/main/LeetCode/Medium/0200-number-of-islands/) | Medium |
 | [0399-evaluate-division](https://github.com/woojeans7/Algorithm/tree/main/LeetCode/Medium/0399-evaluate-division/) | Medium |
 | [0547-number-of-provinces](https://github.com/woojeans7/Algorithm/tree/main/LeetCode/Medium/0547-number-of-provinces/) | Medium |
+| [0778-swim-in-rising-water](https://github.com/woojeans7/Algorithm/tree/main/LeetCode/Hard/0778-swim-in-rising-water/) | Hard |
 | [0785-is-graph-bipartite](https://github.com/woojeans7/Algorithm/tree/main/LeetCode/Medium/0785-is-graph-bipartite/) | Medium |
 | [1631-path-with-minimum-effort](https://github.com/woojeans7/Algorithm/tree/main/LeetCode/Medium/1631-path-with-minimum-effort/) | Medium |
 ## Matrix
@@ -347,6 +352,7 @@
 | [0063-unique-paths-ii](https://github.com/woojeans7/Algorithm/tree/main/LeetCode/Medium/0063-unique-paths-ii/) | Medium |
 | [0064-minimum-path-sum](https://github.com/woojeans7/Algorithm/tree/main/LeetCode/Medium/0064-minimum-path-sum/) | Medium |
 | [0200-number-of-islands](https://github.com/woojeans7/Algorithm/tree/main/LeetCode/Medium/0200-number-of-islands/) | Medium |
+| [0778-swim-in-rising-water](https://github.com/woojeans7/Algorithm/tree/main/LeetCode/Hard/0778-swim-in-rising-water/) | Hard |
 | [0994-rotting-oranges](https://github.com/woojeans7/Algorithm/tree/main/LeetCode/Medium/0994-rotting-oranges/) | Medium |
 | [1091-shortest-path-in-binary-matrix](https://github.com/woojeans7/Algorithm/tree/main/LeetCode/Medium/1091-shortest-path-in-binary-matrix/) | Medium |
 | [1162-as-far-from-land-as-possible](https://github.com/woojeans7/Algorithm/tree/main/LeetCode/Medium/1162-as-far-from-land-as-possible/) | Medium |
@@ -458,6 +464,7 @@
 | ------- | ------- |
 | [0215-kth-largest-element-in-an-array](https://github.com/woojeans7/Algorithm/tree/main/LeetCode/Medium/0215-kth-largest-element-in-an-array/) | Medium |
 | [0743-network-delay-time](https://github.com/woojeans7/Algorithm/tree/main/LeetCode/Medium/0743-network-delay-time/) | Medium |
+| [0778-swim-in-rising-water](https://github.com/woojeans7/Algorithm/tree/main/LeetCode/Hard/0778-swim-in-rising-water/) | Hard |
 | [0912-sort-an-array](https://github.com/woojeans7/Algorithm/tree/main/LeetCode/Medium/0912-sort-an-array/) | Medium |
 | [1514-path-with-maximum-probability](https://github.com/woojeans7/Algorithm/tree/main/LeetCode/Medium/1514-path-with-maximum-probability/) | Medium |
 | [1631-path-with-minimum-effort](https://github.com/woojeans7/Algorithm/tree/main/LeetCode/Medium/1631-path-with-minimum-effort/) | Medium |
@@ -517,6 +524,11 @@
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [0743-network-delay-time](https://github.com/woojeans7/Algorithm/tree/main/LeetCode/Medium/0743-network-delay-time/) | Medium |
+| [0778-swim-in-rising-water](https://github.com/woojeans7/Algorithm/tree/main/LeetCode/Hard/0778-swim-in-rising-water/) | Hard |
 | [1514-path-with-maximum-probability](https://github.com/woojeans7/Algorithm/tree/main/LeetCode/Medium/1514-path-with-maximum-probability/) | Medium |
 | [1631-path-with-minimum-effort](https://github.com/woojeans7/Algorithm/tree/main/LeetCode/Medium/1631-path-with-minimum-effort/) | Medium |
+## Minimax
+| Problem Name | Difficulty |
+| ------- | ------- |
+| [0778-swim-in-rising-water](https://github.com/woojeans7/Algorithm/tree/main/LeetCode/Hard/0778-swim-in-rising-water/) | Hard |
 <!---LeetCode Topics End-->
