@@ -141,6 +141,7 @@
 | [1493-longest-subarray-of-1s-after-deleting-one-element](https://github.com/woojeans7/Algorithm/tree/main/LeetCode/Medium/1493-longest-subarray-of-1s-after-deleting-one-element/) | Medium |
 | [1514-path-with-maximum-probability](https://github.com/woojeans7/Algorithm/tree/main/LeetCode/Medium/1514-path-with-maximum-probability/) | Medium |
 | [1552-magnetic-force-between-two-balls](https://github.com/woojeans7/Algorithm/tree/main/LeetCode/Medium/1552-magnetic-force-between-two-balls/) | Medium |
+| [1631-path-with-minimum-effort](https://github.com/woojeans7/Algorithm/tree/main/LeetCode/Medium/1631-path-with-minimum-effort/) | Medium |
 | [1679-max-number-of-k-sum-pairs](https://github.com/woojeans7/Algorithm/tree/main/LeetCode/Medium/1679-max-number-of-k-sum-pairs/) | Medium |
 | [1732-find-the-highest-altitude](https://github.com/woojeans7/Algorithm/tree/main/LeetCode/Easy/1732-find-the-highest-altitude/) | Easy |
 | [1823-find-the-winner-of-the-circular-game](https://github.com/woojeans7/Algorithm/tree/main/LeetCode/Medium/1823-find-the-winner-of-the-circular-game/) | Medium |
@@ -234,6 +235,7 @@
 | [1372-longest-zigzag-path-in-a-binary-tree](https://github.com/woojeans7/Algorithm/tree/main/LeetCode/Medium/1372-longest-zigzag-path-in-a-binary-tree/) | Medium |
 | [1448-count-good-nodes-in-binary-tree](https://github.com/woojeans7/Algorithm/tree/main/LeetCode/Medium/1448-count-good-nodes-in-binary-tree/) | Medium |
 | [1466-reorder-routes-to-make-all-paths-lead-to-the-city-zero](https://github.com/woojeans7/Algorithm/tree/main/LeetCode/Medium/1466-reorder-routes-to-make-all-paths-lead-to-the-city-zero/) | Medium |
+| [1631-path-with-minimum-effort](https://github.com/woojeans7/Algorithm/tree/main/LeetCode/Medium/1631-path-with-minimum-effort/) | Medium |
 ## Breadth-First Search
 | Problem Name | Difficulty |
 | ------- | ------- |
@@ -254,6 +256,7 @@
 | [1162-as-far-from-land-as-possible](https://github.com/woojeans7/Algorithm/tree/main/LeetCode/Medium/1162-as-far-from-land-as-possible/) | Medium |
 | [1448-count-good-nodes-in-binary-tree](https://github.com/woojeans7/Algorithm/tree/main/LeetCode/Medium/1448-count-good-nodes-in-binary-tree/) | Medium |
 | [1466-reorder-routes-to-make-all-paths-lead-to-the-city-zero](https://github.com/woojeans7/Algorithm/tree/main/LeetCode/Medium/1466-reorder-routes-to-make-all-paths-lead-to-the-city-zero/) | Medium |
+| [1631-path-with-minimum-effort](https://github.com/woojeans7/Algorithm/tree/main/LeetCode/Medium/1631-path-with-minimum-effort/) | Medium |
 | [1926-nearest-exit-from-entrance-in-maze](https://github.com/woojeans7/Algorithm/tree/main/LeetCode/Medium/1926-nearest-exit-from-entrance-in-maze/) | Medium |
 ## Graph Theory
 | Problem Name | Difficulty |
@@ -327,6 +330,7 @@
 | [0875-koko-eating-bananas](https://github.com/woojeans7/Algorithm/tree/main/LeetCode/Medium/0875-koko-eating-bananas/) | Medium |
 | [1004-max-consecutive-ones-iii](https://github.com/woojeans7/Algorithm/tree/main/LeetCode/Medium/1004-max-consecutive-ones-iii/) | Medium |
 | [1552-magnetic-force-between-two-balls](https://github.com/woojeans7/Algorithm/tree/main/LeetCode/Medium/1552-magnetic-force-between-two-balls/) | Medium |
+| [1631-path-with-minimum-effort](https://github.com/woojeans7/Algorithm/tree/main/LeetCode/Medium/1631-path-with-minimum-effort/) | Medium |
 | [2300-successful-pairs-of-spells-and-potions](https://github.com/woojeans7/Algorithm/tree/main/LeetCode/Medium/2300-successful-pairs-of-spells-and-potions/) | Medium |
 ## Union-Find
 | Problem Name | Difficulty |
@@ -336,6 +340,7 @@
 | [0399-evaluate-division](https://github.com/woojeans7/Algorithm/tree/main/LeetCode/Medium/0399-evaluate-division/) | Medium |
 | [0547-number-of-provinces](https://github.com/woojeans7/Algorithm/tree/main/LeetCode/Medium/0547-number-of-provinces/) | Medium |
 | [0785-is-graph-bipartite](https://github.com/woojeans7/Algorithm/tree/main/LeetCode/Medium/0785-is-graph-bipartite/) | Medium |
+| [1631-path-with-minimum-effort](https://github.com/woojeans7/Algorithm/tree/main/LeetCode/Medium/1631-path-with-minimum-effort/) | Medium |
 ## Matrix
 | Problem Name | Difficulty |
 | ------- | ------- |
@@ -345,6 +350,7 @@
 | [0994-rotting-oranges](https://github.com/woojeans7/Algorithm/tree/main/LeetCode/Medium/0994-rotting-oranges/) | Medium |
 | [1091-shortest-path-in-binary-matrix](https://github.com/woojeans7/Algorithm/tree/main/LeetCode/Medium/1091-shortest-path-in-binary-matrix/) | Medium |
 | [1162-as-far-from-land-as-possible](https://github.com/woojeans7/Algorithm/tree/main/LeetCode/Medium/1162-as-far-from-land-as-possible/) | Medium |
+| [1631-path-with-minimum-effort](https://github.com/woojeans7/Algorithm/tree/main/LeetCode/Medium/1631-path-with-minimum-effort/) | Medium |
 | [1926-nearest-exit-from-entrance-in-maze](https://github.com/woojeans7/Algorithm/tree/main/LeetCode/Medium/1926-nearest-exit-from-entrance-in-maze/) | Medium |
 | [2352-equal-row-and-column-pairs](https://github.com/woojeans7/Algorithm/tree/main/LeetCode/Medium/2352-equal-row-and-column-pairs/) | Medium |
 ## Simulation
@@ -454,6 +460,7 @@
 | [0743-network-delay-time](https://github.com/woojeans7/Algorithm/tree/main/LeetCode/Medium/0743-network-delay-time/) | Medium |
 | [0912-sort-an-array](https://github.com/woojeans7/Algorithm/tree/main/LeetCode/Medium/0912-sort-an-array/) | Medium |
 | [1514-path-with-maximum-probability](https://github.com/woojeans7/Algorithm/tree/main/LeetCode/Medium/1514-path-with-maximum-probability/) | Medium |
+| [1631-path-with-minimum-effort](https://github.com/woojeans7/Algorithm/tree/main/LeetCode/Medium/1631-path-with-minimum-effort/) | Medium |
 | [2336-smallest-number-in-infinite-set](https://github.com/woojeans7/Algorithm/tree/main/LeetCode/Medium/2336-smallest-number-in-infinite-set/) | Medium |
 | [2462-total-cost-to-hire-k-workers](https://github.com/woojeans7/Algorithm/tree/main/LeetCode/Medium/2462-total-cost-to-hire-k-workers/) | Medium |
 | [2542-maximum-subsequence-score](https://github.com/woojeans7/Algorithm/tree/main/LeetCode/Medium/2542-maximum-subsequence-score/) | Medium |
@@ -511,4 +518,5 @@
 | ------- | ------- |
 | [0743-network-delay-time](https://github.com/woojeans7/Algorithm/tree/main/LeetCode/Medium/0743-network-delay-time/) | Medium |
 | [1514-path-with-maximum-probability](https://github.com/woojeans7/Algorithm/tree/main/LeetCode/Medium/1514-path-with-maximum-probability/) | Medium |
+| [1631-path-with-minimum-effort](https://github.com/woojeans7/Algorithm/tree/main/LeetCode/Medium/1631-path-with-minimum-effort/) | Medium |
 <!---LeetCode Topics End-->
