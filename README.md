@@ -208,6 +208,7 @@
 | [0435-non-overlapping-intervals](https://github.com/woojeans7/Algorithm/tree/main/LeetCode/Medium/0435-non-overlapping-intervals/) | Medium |
 | [0714-best-time-to-buy-and-sell-stock-with-transaction-fee](https://github.com/woojeans7/Algorithm/tree/main/LeetCode/Medium/0714-best-time-to-buy-and-sell-stock-with-transaction-fee/) | Medium |
 | [0746-min-cost-climbing-stairs](https://github.com/woojeans7/Algorithm/tree/main/LeetCode/Easy/0746-min-cost-climbing-stairs/) | Easy |
+| [0787-cheapest-flights-within-k-stops](https://github.com/woojeans7/Algorithm/tree/main/LeetCode/Medium/0787-cheapest-flights-within-k-stops/) | Medium |
 | [0790-domino-and-tromino-tiling](https://github.com/woojeans7/Algorithm/tree/main/LeetCode/Medium/0790-domino-and-tromino-tiling/) | Medium |
 | [1137-n-th-tribonacci-number](https://github.com/woojeans7/Algorithm/tree/main/LeetCode/Easy/1137-n-th-tribonacci-number/) | Easy |
 | [1143-longest-common-subsequence](https://github.com/woojeans7/Algorithm/tree/main/LeetCode/Medium/1143-longest-common-subsequence/) | Medium |
@@ -230,6 +231,7 @@
 | [0743-network-delay-time](https://github.com/woojeans7/Algorithm/tree/main/LeetCode/Medium/0743-network-delay-time/) | Medium |
 | [0778-swim-in-rising-water](https://github.com/woojeans7/Algorithm/tree/main/LeetCode/Hard/0778-swim-in-rising-water/) | Hard |
 | [0785-is-graph-bipartite](https://github.com/woojeans7/Algorithm/tree/main/LeetCode/Medium/0785-is-graph-bipartite/) | Medium |
+| [0787-cheapest-flights-within-k-stops](https://github.com/woojeans7/Algorithm/tree/main/LeetCode/Medium/0787-cheapest-flights-within-k-stops/) | Medium |
 | [0797-all-paths-from-source-to-target](https://github.com/woojeans7/Algorithm/tree/main/LeetCode/Medium/0797-all-paths-from-source-to-target/) | Medium |
 | [0841-keys-and-rooms](https://github.com/woojeans7/Algorithm/tree/main/LeetCode/Medium/0841-keys-and-rooms/) | Medium |
 | [0872-leaf-similar-trees](https://github.com/woojeans7/Algorithm/tree/main/LeetCode/Easy/0872-leaf-similar-trees/) | Easy |
@@ -251,6 +253,7 @@
 | [0743-network-delay-time](https://github.com/woojeans7/Algorithm/tree/main/LeetCode/Medium/0743-network-delay-time/) | Medium |
 | [0778-swim-in-rising-water](https://github.com/woojeans7/Algorithm/tree/main/LeetCode/Hard/0778-swim-in-rising-water/) | Hard |
 | [0785-is-graph-bipartite](https://github.com/woojeans7/Algorithm/tree/main/LeetCode/Medium/0785-is-graph-bipartite/) | Medium |
+| [0787-cheapest-flights-within-k-stops](https://github.com/woojeans7/Algorithm/tree/main/LeetCode/Medium/0787-cheapest-flights-within-k-stops/) | Medium |
 | [0797-all-paths-from-source-to-target](https://github.com/woojeans7/Algorithm/tree/main/LeetCode/Medium/0797-all-paths-from-source-to-target/) | Medium |
 | [0841-keys-and-rooms](https://github.com/woojeans7/Algorithm/tree/main/LeetCode/Medium/0841-keys-and-rooms/) | Medium |
 | [0994-rotting-oranges](https://github.com/woojeans7/Algorithm/tree/main/LeetCode/Medium/0994-rotting-oranges/) | Medium |
@@ -269,6 +272,7 @@
 | [0547-number-of-provinces](https://github.com/woojeans7/Algorithm/tree/main/LeetCode/Medium/0547-number-of-provinces/) | Medium |
 | [0743-network-delay-time](https://github.com/woojeans7/Algorithm/tree/main/LeetCode/Medium/0743-network-delay-time/) | Medium |
 | [0785-is-graph-bipartite](https://github.com/woojeans7/Algorithm/tree/main/LeetCode/Medium/0785-is-graph-bipartite/) | Medium |
+| [0787-cheapest-flights-within-k-stops](https://github.com/woojeans7/Algorithm/tree/main/LeetCode/Medium/0787-cheapest-flights-within-k-stops/) | Medium |
 | [0797-all-paths-from-source-to-target](https://github.com/woojeans7/Algorithm/tree/main/LeetCode/Medium/0797-all-paths-from-source-to-target/) | Medium |
 | [0841-keys-and-rooms](https://github.com/woojeans7/Algorithm/tree/main/LeetCode/Medium/0841-keys-and-rooms/) | Medium |
 | [1466-reorder-routes-to-make-all-paths-lead-to-the-city-zero](https://github.com/woojeans7/Algorithm/tree/main/LeetCode/Medium/1466-reorder-routes-to-make-all-paths-lead-to-the-city-zero/) | Medium |
@@ -443,6 +447,7 @@
 | ------- | ------- |
 | [0399-evaluate-division](https://github.com/woojeans7/Algorithm/tree/main/LeetCode/Medium/0399-evaluate-division/) | Medium |
 | [0743-network-delay-time](https://github.com/woojeans7/Algorithm/tree/main/LeetCode/Medium/0743-network-delay-time/) | Medium |
+| [0787-cheapest-flights-within-k-stops](https://github.com/woojeans7/Algorithm/tree/main/LeetCode/Medium/0787-cheapest-flights-within-k-stops/) | Medium |
 | [1514-path-with-maximum-probability](https://github.com/woojeans7/Algorithm/tree/main/LeetCode/Medium/1514-path-with-maximum-probability/) | Medium |
 ## Combinatorics
 | Problem Name | Difficulty |
@@ -465,6 +470,7 @@
 | [0215-kth-largest-element-in-an-array](https://github.com/woojeans7/Algorithm/tree/main/LeetCode/Medium/0215-kth-largest-element-in-an-array/) | Medium |
 | [0743-network-delay-time](https://github.com/woojeans7/Algorithm/tree/main/LeetCode/Medium/0743-network-delay-time/) | Medium |
 | [0778-swim-in-rising-water](https://github.com/woojeans7/Algorithm/tree/main/LeetCode/Hard/0778-swim-in-rising-water/) | Hard |
+| [0787-cheapest-flights-within-k-stops](https://github.com/woojeans7/Algorithm/tree/main/LeetCode/Medium/0787-cheapest-flights-within-k-stops/) | Medium |
 | [0912-sort-an-array](https://github.com/woojeans7/Algorithm/tree/main/LeetCode/Medium/0912-sort-an-array/) | Medium |
 | [1514-path-with-maximum-probability](https://github.com/woojeans7/Algorithm/tree/main/LeetCode/Medium/1514-path-with-maximum-probability/) | Medium |
 | [1631-path-with-minimum-effort](https://github.com/woojeans7/Algorithm/tree/main/LeetCode/Medium/1631-path-with-minimum-effort/) | Medium |
