@@ -138,6 +138,7 @@
 | [1162-as-far-from-land-as-possible](https://github.com/woojeans7/Algorithm/tree/main/LeetCode/Medium/1162-as-far-from-land-as-possible/) | Medium |
 | [1186-maximum-subarray-sum-with-one-deletion](https://github.com/woojeans7/Algorithm/tree/main/LeetCode/Medium/1186-maximum-subarray-sum-with-one-deletion/) | Medium |
 | [1207-unique-number-of-occurrences](https://github.com/woojeans7/Algorithm/tree/main/LeetCode/Easy/1207-unique-number-of-occurrences/) | Easy |
+| [1368-minimum-cost-to-make-at-least-one-valid-path-in-a-grid](https://github.com/woojeans7/Algorithm/tree/main/LeetCode/Hard/1368-minimum-cost-to-make-at-least-one-valid-path-in-a-grid/) | Hard |
 | [1431-kids-with-the-greatest-number-of-candies](https://github.com/woojeans7/Algorithm/tree/main/LeetCode/Easy/1431-kids-with-the-greatest-number-of-candies/) | Easy |
 | [1493-longest-subarray-of-1s-after-deleting-one-element](https://github.com/woojeans7/Algorithm/tree/main/LeetCode/Medium/1493-longest-subarray-of-1s-after-deleting-one-element/) | Medium |
 | [1514-path-with-maximum-probability](https://github.com/woojeans7/Algorithm/tree/main/LeetCode/Medium/1514-path-with-maximum-probability/) | Medium |
@@ -260,6 +261,7 @@
 | [1091-shortest-path-in-binary-matrix](https://github.com/woojeans7/Algorithm/tree/main/LeetCode/Medium/1091-shortest-path-in-binary-matrix/) | Medium |
 | [1161-maximum-level-sum-of-a-binary-tree](https://github.com/woojeans7/Algorithm/tree/main/LeetCode/Medium/1161-maximum-level-sum-of-a-binary-tree/) | Medium |
 | [1162-as-far-from-land-as-possible](https://github.com/woojeans7/Algorithm/tree/main/LeetCode/Medium/1162-as-far-from-land-as-possible/) | Medium |
+| [1368-minimum-cost-to-make-at-least-one-valid-path-in-a-grid](https://github.com/woojeans7/Algorithm/tree/main/LeetCode/Hard/1368-minimum-cost-to-make-at-least-one-valid-path-in-a-grid/) | Hard |
 | [1448-count-good-nodes-in-binary-tree](https://github.com/woojeans7/Algorithm/tree/main/LeetCode/Medium/1448-count-good-nodes-in-binary-tree/) | Medium |
 | [1466-reorder-routes-to-make-all-paths-lead-to-the-city-zero](https://github.com/woojeans7/Algorithm/tree/main/LeetCode/Medium/1466-reorder-routes-to-make-all-paths-lead-to-the-city-zero/) | Medium |
 | [1631-path-with-minimum-effort](https://github.com/woojeans7/Algorithm/tree/main/LeetCode/Medium/1631-path-with-minimum-effort/) | Medium |
@@ -275,6 +277,7 @@
 | [0787-cheapest-flights-within-k-stops](https://github.com/woojeans7/Algorithm/tree/main/LeetCode/Medium/0787-cheapest-flights-within-k-stops/) | Medium |
 | [0797-all-paths-from-source-to-target](https://github.com/woojeans7/Algorithm/tree/main/LeetCode/Medium/0797-all-paths-from-source-to-target/) | Medium |
 | [0841-keys-and-rooms](https://github.com/woojeans7/Algorithm/tree/main/LeetCode/Medium/0841-keys-and-rooms/) | Medium |
+| [1368-minimum-cost-to-make-at-least-one-valid-path-in-a-grid](https://github.com/woojeans7/Algorithm/tree/main/LeetCode/Hard/1368-minimum-cost-to-make-at-least-one-valid-path-in-a-grid/) | Hard |
 | [1466-reorder-routes-to-make-all-paths-lead-to-the-city-zero](https://github.com/woojeans7/Algorithm/tree/main/LeetCode/Medium/1466-reorder-routes-to-make-all-paths-lead-to-the-city-zero/) | Medium |
 | [1514-path-with-maximum-probability](https://github.com/woojeans7/Algorithm/tree/main/LeetCode/Medium/1514-path-with-maximum-probability/) | Medium |
 ## Hash Table
@@ -360,6 +363,7 @@
 | [0994-rotting-oranges](https://github.com/woojeans7/Algorithm/tree/main/LeetCode/Medium/0994-rotting-oranges/) | Medium |
 | [1091-shortest-path-in-binary-matrix](https://github.com/woojeans7/Algorithm/tree/main/LeetCode/Medium/1091-shortest-path-in-binary-matrix/) | Medium |
 | [1162-as-far-from-land-as-possible](https://github.com/woojeans7/Algorithm/tree/main/LeetCode/Medium/1162-as-far-from-land-as-possible/) | Medium |
+| [1368-minimum-cost-to-make-at-least-one-valid-path-in-a-grid](https://github.com/woojeans7/Algorithm/tree/main/LeetCode/Hard/1368-minimum-cost-to-make-at-least-one-valid-path-in-a-grid/) | Hard |
 | [1631-path-with-minimum-effort](https://github.com/woojeans7/Algorithm/tree/main/LeetCode/Medium/1631-path-with-minimum-effort/) | Medium |
 | [1926-nearest-exit-from-entrance-in-maze](https://github.com/woojeans7/Algorithm/tree/main/LeetCode/Medium/1926-nearest-exit-from-entrance-in-maze/) | Medium |
 | [2352-equal-row-and-column-pairs](https://github.com/woojeans7/Algorithm/tree/main/LeetCode/Medium/2352-equal-row-and-column-pairs/) | Medium |
@@ -448,6 +452,7 @@
 | [0399-evaluate-division](https://github.com/woojeans7/Algorithm/tree/main/LeetCode/Medium/0399-evaluate-division/) | Medium |
 | [0743-network-delay-time](https://github.com/woojeans7/Algorithm/tree/main/LeetCode/Medium/0743-network-delay-time/) | Medium |
 | [0787-cheapest-flights-within-k-stops](https://github.com/woojeans7/Algorithm/tree/main/LeetCode/Medium/0787-cheapest-flights-within-k-stops/) | Medium |
+| [1368-minimum-cost-to-make-at-least-one-valid-path-in-a-grid](https://github.com/woojeans7/Algorithm/tree/main/LeetCode/Hard/1368-minimum-cost-to-make-at-least-one-valid-path-in-a-grid/) | Hard |
 | [1514-path-with-maximum-probability](https://github.com/woojeans7/Algorithm/tree/main/LeetCode/Medium/1514-path-with-maximum-probability/) | Medium |
 ## Combinatorics
 | Problem Name | Difficulty |
@@ -472,6 +477,7 @@
 | [0778-swim-in-rising-water](https://github.com/woojeans7/Algorithm/tree/main/LeetCode/Hard/0778-swim-in-rising-water/) | Hard |
 | [0787-cheapest-flights-within-k-stops](https://github.com/woojeans7/Algorithm/tree/main/LeetCode/Medium/0787-cheapest-flights-within-k-stops/) | Medium |
 | [0912-sort-an-array](https://github.com/woojeans7/Algorithm/tree/main/LeetCode/Medium/0912-sort-an-array/) | Medium |
+| [1368-minimum-cost-to-make-at-least-one-valid-path-in-a-grid](https://github.com/woojeans7/Algorithm/tree/main/LeetCode/Hard/1368-minimum-cost-to-make-at-least-one-valid-path-in-a-grid/) | Hard |
 | [1514-path-with-maximum-probability](https://github.com/woojeans7/Algorithm/tree/main/LeetCode/Medium/1514-path-with-maximum-probability/) | Medium |
 | [1631-path-with-minimum-effort](https://github.com/woojeans7/Algorithm/tree/main/LeetCode/Medium/1631-path-with-minimum-effort/) | Medium |
 | [2336-smallest-number-in-infinite-set](https://github.com/woojeans7/Algorithm/tree/main/LeetCode/Medium/2336-smallest-number-in-infinite-set/) | Medium |
@@ -531,10 +537,15 @@
 | ------- | ------- |
 | [0743-network-delay-time](https://github.com/woojeans7/Algorithm/tree/main/LeetCode/Medium/0743-network-delay-time/) | Medium |
 | [0778-swim-in-rising-water](https://github.com/woojeans7/Algorithm/tree/main/LeetCode/Hard/0778-swim-in-rising-water/) | Hard |
+| [1368-minimum-cost-to-make-at-least-one-valid-path-in-a-grid](https://github.com/woojeans7/Algorithm/tree/main/LeetCode/Hard/1368-minimum-cost-to-make-at-least-one-valid-path-in-a-grid/) | Hard |
 | [1514-path-with-maximum-probability](https://github.com/woojeans7/Algorithm/tree/main/LeetCode/Medium/1514-path-with-maximum-probability/) | Medium |
 | [1631-path-with-minimum-effort](https://github.com/woojeans7/Algorithm/tree/main/LeetCode/Medium/1631-path-with-minimum-effort/) | Medium |
 ## Minimax
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [0778-swim-in-rising-water](https://github.com/woojeans7/Algorithm/tree/main/LeetCode/Hard/0778-swim-in-rising-water/) | Hard |
+## 0-1 BFS
+| Problem Name | Difficulty |
+| ------- | ------- |
+| [1368-minimum-cost-to-make-at-least-one-valid-path-in-a-grid](https://github.com/woojeans7/Algorithm/tree/main/LeetCode/Hard/1368-minimum-cost-to-make-at-least-one-valid-path-in-a-grid/) | Hard |
 <!---LeetCode Topics End-->
