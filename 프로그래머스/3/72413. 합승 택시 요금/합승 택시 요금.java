@@ -1,68 +1,30 @@
 import java.util.*;
 
-class Edge{
-    int node;
-    int cost;
-    
-    
-    public Edge(int node, int cost){
-        this.node = node;
-        this.cost = cost;
-    }
-}
 class Solution {
-    final int INF = (int) 1e9;
     public int solution(int n, int s, int a, int b, int[][] fares) {
+        int INF = 20_000_000;                       // 오버플로 방지용 (아래 설명)
+        int[][] dist = new int[n + 1][n + 1];
 
-        List<List<Edge>> graph = new ArrayList<>();
-        for(int i = 0; i <= n; i++){
-            graph.add(new ArrayList<>());
+        for (int i = 1; i <= n; i++) {
+            Arrays.fill(dist[i], INF);
+            dist[i][i] = 0;
         }
-        
-        for(int[] fare : fares){
-            int u = fare[0];
-            int v = fare[1];
-            int w = fare[2];
+        for (int[] f : fares) {
+            dist[f[0]][f[1]] = f[2];
+            dist[f[1]][f[0]] = f[2];                // 무방향
+        }
 
-            graph.get(u).add(new Edge(v,w));
-            graph.get(v).add(new Edge(u,w));
-        }
-        
-        int[] distS = dijkstra(n, s, graph);
-        int[] distA = dijkstra(n, a, graph);
-        int[] distB = dijkstra(n, b, graph);
-        
-        int minCost = INF;
-        for(int i = 1; i <= n; i++){
-            if (distS[i] == INF || distA[i] == INF || distB[i] == INF) continue;
+        // 플로이드-워셜: 경유지 k가 가장 바깥 루프
+        for (int k = 1; k <= n; k++)
+            for (int i = 1; i <= n; i++)
+                for (int j = 1; j <= n; j++)
+                    if (dist[i][k] + dist[k][j] < dist[i][j])
+                        dist[i][j] = dist[i][k] + dist[k][j];
 
-            int sum = distS[i] + distA[i] + distB[i];
-            minCost = Math.min(minCost, sum);
+        int answer = INF;
+        for (int i = 1; i <= n; i++) {              // i = 합승을 끝내고 갈라지는 지점
+            answer = Math.min(answer, dist[s][i] + dist[i][a] + dist[i][b]);
         }
-        
-        return minCost;
-    }
-    private int[] dijkstra(int n, int start, List<List<Edge>> graph){
-        int[] distance = new int[n + 1];
-        Arrays.fill(distance, INF);
-        
-        Queue<Edge> pq = new PriorityQueue<>(Comparator.comparingInt(e -> e.cost));
-        pq.offer(new Edge(start, 0));
-        distance[start] = 0;
-        
-        while(!pq.isEmpty()){
-            Edge cur = pq.poll();
-            
-            if(distance[cur.node] < cur.cost) continue;
-            
-            for(Edge next : graph.get(cur.node)){
-                int dist = distance[cur.node] + next.cost;
-                if(dist < distance[next.node]){
-                    distance[next.node] = dist;
-                    pq.offer(new Edge(next.node, dist));
-                }
-            }
-        }
-        return distance;
+        return answer;
     }
 }
