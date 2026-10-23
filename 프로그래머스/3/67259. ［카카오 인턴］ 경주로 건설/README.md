@@ -1,10 +1,10 @@
 # [level 3] [카카오 인턴] 경주로 건설 - 67259 
 
-[문제 링크](https://school.programmers.co.kr/learn/courses/30/lessons/67259?gad_source=1&gad_campaignid=23037984604&gbraid=0AAAAAC_c4nAksOMAQXSQLCAtf0_YyCbLL&gclid=Cj0KCQjwteTUBhD4ARIsAEYjs3rc_tgtO0iSfD694QgX1SthKqZoEHJZrqX2qtu1u8s57bZOp_oWm_YaAuKtEALw_wcB) 
+[문제 링크](https://school.programmers.co.kr/learn/courses/30/lessons/67259) 
 
 ### 성능 요약
 
-메모리: 75.4 MB, 시간: 2.49 ms
+메모리: 85.9 MB, 시간: 6.44 ms
 
 ### 구분
 
@@ -16,7 +16,7 @@
 
 ### 제출 일자
 
-2026년 09월 04일 13:43:22
+2026년 10월 23일 22:59:29
 
 ### 문제 설명
 
